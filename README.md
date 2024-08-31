@@ -2,7 +2,10 @@
 This repository will be used to document every plan and success related to my coding journey, from Grade 7 until now. All completed projects will be summarized in this repository with links to the full project details.
 
 ## My Projects
-- **[Grade 7-9](#)**
+- **[Grade 7-9](#my-project-between-grade-7-9)**
+    - [Mixer Rubber (Engineering only)](#mixer-rubber-engineering-only)
+        - **Description:** Development of a Mixer Rubber Water system using Formic Acid for the production of cup rubber from the potential leaves of Senna siamea. This project was aimed at solving the challenges faced by rubber tappers.
+        - **Achievements:** 1 Gold and 1 Silver award at the national level.
 - **[Grade 10-12](#)**
 - **[Freshman (Current)](#)**
 
@@ -16,6 +19,28 @@ It's about what I'm doing now and my life goal.
     This is my current plan to do, and it storage that plan i done.
 - **[My Life Plan](#the-way-i-improve-myself)**
     This plan outlines how I aim to improve myself to achieve my life goals. It includes descriptions of all targets and the strategies I use to reach them.
+
+---
+---
+# My Project Between Grade 7-9
+
+## Mixer Rubber (Engineering only)
+- **Using Skill :** Electrical system design and shape design.
+
+<div style="text-align: left;">
+    <div style="display: inline-block; margin: 10px; text-align: center">
+        <img src="grade7-9_picture\Type1.png" alt="Image 1" width="200">
+        <p>Type 1</p>
+    </div>
+    <div style="display: inline-block; margin: 10px;; text-align: center">
+        <img src="grade7-9_picture\Type2.png" alt="Image 2" width="200">
+        <p>Type 2</p>
+    </div>
+    <div style="display: inline-block; margin: 10px;; text-align: center">
+        <img src="grade7-9_picture\Type3.png" alt="Image 3" width="200">
+        <p>Type 3</p>
+    </div>
+</div>
 
 ---
 ---
