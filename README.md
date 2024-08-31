@@ -1,15 +1,21 @@
-# Life Target Plan
+# My success repository
 This repository will be used to document every plan and success related to my coding journey, from Grade 7 until now. All completed projects will be summarized in this repository with links to the full project details.
 
-**My Projects**
-- [Grade 7-9](#)
-- [Grade 10-12](#)
-- [Freshman (Current)](#)
+## My Projects
+- **[Grade 7-9](#)**
+- **[Grade 10-12](#)**
+- **[Freshman (Current)](#)**
 
-**Another**
-- [My Life Plan](#the-way-i-improve-myself)
+## Aboutme
+- **[Personal Information and Experience](#)**
+
+## My plan (private)
+It's about what I'm doing now and my life goal.
+
+- **[My plan now](MyPlan.md)**
+    This is my current plan to do, and it storage that plan i done.
+- **[My Life Plan](#the-way-i-improve-myself)**
     This plan outlines how I aim to improve myself to achieve my life goals. It includes descriptions of all targets and the strategies I use to reach them.
-- [About Myself (Personal Information and Experience)](#)
 
 ---
 ---
