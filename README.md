@@ -29,15 +29,15 @@ It's about what I'm doing now and my life goal.
 
 <table>
   <tr>
-    <td style="text-align: center;">
+    <td align="center">
       <img src="grade7-9_picture/Type1.png" alt="Image 1" width="200">
       <p>Type 1</p>
     </td>
-    <td style="text-align: center;">
+    <td align="center">
       <img src="grade7-9_picture/Type2.png" alt="Image 2" width="200">
       <p>Type 2</p>
     </td>
-    <td style="text-align: center;">
+    <td align="center">
       <img src="grade7-9_picture/Type3.png" alt="Image 3" width="200">
       <p>Type 3</p>
     </td>
