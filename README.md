@@ -27,20 +27,22 @@ It's about what I'm doing now and my life goal.
 ## Mixer Rubber (Engineering only)
 - **Using Skill :** Electrical system design and shape design.
 
-<div style="text-align: left; display: inline-grid; grid-template-columns: auto auto auto;">
-    <div style="display: block; margin: 10px; text-align: center">
-        <img src="grade7-9_picture\Type1.png" alt="Image 1" width="200">
-        <p>Type 1</p>
-    </div>
-    <div style="display: block; margin: 10px;; text-align: center">
-        <img src="grade7-9_picture\Type2.png" alt="Image 2" width="200">
-        <p>Type 2</p>
-    </div>
-    <div style="display: block; margin: 10px;; text-align: center">
-        <img src="grade7-9_picture\Type3.png" alt="Image 3" width="200">
-        <p>Type 3</p>
-    </div>
-</div>
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="grade7-9_picture/Type1.png" alt="Image 1" width="200">
+      <p>Type 1</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="grade7-9_picture/Type2.png" alt="Image 2" width="200">
+      <p>Type 2</p>
+    </td>
+    <td style="text-align: center;">
+      <img src="grade7-9_picture/Type3.png" alt="Image 3" width="200">
+      <p>Type 3</p>
+    </td>
+  </tr>
+</table>
 
 ---
 ---
