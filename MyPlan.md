@@ -21,7 +21,7 @@
 
 ## The learning path before applying work (30-40 day in mount 9) 
 - freshman (Employ all of this to vercel and use in CV)
-    ![alt text](freshman/detail.jpg)
+    <!-- ![alt text](freshman/detail.jpg) -->
     - NodeJS with Database (use both mongoDB and Mysql)
     - PHP with Database (use both mongoDB and Mysql)
     - Use other api with serve such as google traslate
