@@ -201,20 +201,23 @@ It's about what I'm doing now and my life goal.
 
 ### Summary: Life Questions and Answers
 - **Things I Won't Do:**
+    - Giving too much importance to some friends who don't care about you that much.
     - Become addicted to games to the point it affects my life plan.
     - Study excessively to the detriment of my relationships.
     - Engage in low-skill or service jobs.
     - Work in roles involving no coding or algorithms.
 
-- **Things I Will Do Every Day:**
+- **Things I Will Do Every Day: (think every wake up)**
     - Eat whatever I want without worrying about money.
+    - Be the eminence of the shadow, being people who don't reveal myself too much. 
+      <br>talking about only important thing, don't let every know what i'm doing now
     - Share my achievements with friends proudly.
     - Be someone others depend on and trust.
     - Be a person who helps others improve their lives.
 
 - **Income Goals:**
-    - Earn between $50,000 and $60,000 per month.
-    - Increase income by an additional $30,000 when applicable.
+    - Earn between ฿50,000 and ฿60,000 per month.
+    - Increase income by an additional ฿30,000 when applicable.
     - Have passive income sources.
 
 ---
