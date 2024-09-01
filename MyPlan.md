@@ -4,8 +4,8 @@
 - [] english summarize (easy) (do in on 4/9/68)
 
 ## Tomorow
-- [] talking my mother about piano Badger BX-16 (can play piano to hobby)
-- [] upload my portfolio to porfolio group
+- [x] *Yeeeeeet* talking my mother about piano Badger BX-16 (can play piano to hobby)
+- [] upload my portfolio to porfolio group (Got to show off my work)
 
 ## md project (have portfolio to use in applying for work) (before 4/9/65) (4 day)
 - grad 7-9
