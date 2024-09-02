@@ -1,16 +1,22 @@
 # My Plan Daily plan
 
-## Home work 
-- [] english summarize (easy) (do in on 4/9/68)
-
 ## Tomorow
-- [] continous study
-    - [] go to study plysic full time
-    - [] go to do plysic ativity and collect to get point.
-    - [] do the quick exam before 16:00
-    - [] review the last content, review about all content I have studied, and plan to review before exam
+- [] english summarize (easy)
+- [] read the three problem novel for more than 30 minutes
 - [] finished md project
-    - [] mixer rubber
+    - [] JSTP
+    - [] TJSIF
+    - [] Era Odeyssey
+
+## Compltete not well enough 2/9/2023 
+In this day i have more variable; more people contact me from my poftfolio post, In this day i found new group friends and we go to shop togerther. And the last day, I fell asleep accidently from my fatigue.
+- [] continous study
+    - [x] go to study plysic full time
+    - [x] go to do plysic ativity and collect to get point.
+    - [x] do the quick exam before 16:00
+    - [x] review the last content, review about all content I have studied, and plan to review before exam (now have the sorce to review it in next plan)
+- [] finished md project
+    - [x] mixer rubber
     - [] JSTP
 
 

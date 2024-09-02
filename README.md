@@ -3,9 +3,10 @@
 
 ## My Projects
 - **[Grade 7-9](#my-project-between-grade-7-9)**
-    - [ Mixer Rubber imitate Senna Siamea leaves (Engineering only)](#mixer-rubber-engineering-only)
-        - **Description:** Development of a Mixer Rubber Water system using Formic Acid for the production of cup rubber from the potential leaves of Senna siamea. This project was aimed at solving the challenges faced by rubber tappers.
-        - **Achievements:** 1 Gold and 1 Silver award at the national level.
+    - [Mixer Rubber Imitate Senna Siamea Leaves (Engineering only)](#mixer-rubber-engineering-only)
+    - **Description:** Development of a Mixer Rubber Water system using a Senna Siamea leaves model to mix formic acid with rubber for the production of cup rubber. This project aimed to the challenges faced by rubber tappers; swollen rubber, which lowers rubber prices and reduces their income.
+    - **Achievements:** 1 Gold and 1 Silver award at the national level.
+
 - **[Grade 10-12](#)**
 - **[Freshman (Current)](#)**
 
@@ -99,10 +100,10 @@
         - Summary of rubber price: Increased by 2000-3000฿/kg
         - Swollen rubber: 0%
         - Strengths: Convenient and compact, very high efficiency, and quick mixing. 
-        - Weakness: the propeller is difficult to remove from the rubber.
+        - Weakness: the propeller is little difficult to remove from the rubber, but exchange with mixing speed. (worthwhile to exchange)
 
-- ### Conclusion
-    The Mixer Rubber project successfully addressed key challenges in rubber production, with positive feedback and recognition at national events. Future work may focus on further optimizing the system and exploring additional applications.
+    - ### Conclusion
+    The Mixer Rubber Imitate Senna Siamea Leaves project successfully increased income for traditional rubber tappers, reduced the time required to mix rubber and acid, and provided a durable solution for practical use. The best version, Version 3, is priced at 110฿, with 0% swollen rubber and a speed of 1.49 seconds per tree. It increased income from rubber by 2,000-3,000฿ compared to the lastest 110฿ version. It is both usable and beneficial for rubber tappers. According to the experiment, this result is due to the design of the mixing propeller, which allows the rubber, water, and acid to mix thoroughly, decreasing the rate of swollen rubber. The imitation of Senna Siamea leaves in Version 3 increased the touching area of the propeller and improved the efficiency of water flow.
 
 - ### Outcomes and Achievements
     - **Results:** The final product successfully improved rubber mixing processes.
@@ -124,6 +125,11 @@
             </td>
         </tr>
         </table>
+
+
+- ### Archive
+    <img src="grade7-9_picture\Mixer Rubber\archive\poster.png" alt="Image 1" width="100%">
+
 
 ---
 ---
