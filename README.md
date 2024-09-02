@@ -21,14 +21,14 @@
 - ### Skills and Technologies Used
     - **Using Skills:**
         - Electrical system design
-        - Shape design
+        - 3D Shape design
     - **Technologies and Tools:**
         - Sketch up software for 3D design
-        - Use baterry and switch in electrical system
+        - Use baterries and switches in electrical system
 
 - ### Problem Statement
-    - **Problem:** Traditional rubber tapping methods face inefficiencies due to inadequate   mixing between rubber and acid, leading to reduce quality and price of rubber.
-    - **Objective:** Developing a device that mixes rubber and acid more efficiently and quickly will improve the consistency and quality of the rubber, thereby increasing the income for rubber tappers.
+    - **Problem:** Traditional rubber tapping methods face inefficiencies due to poor mixing between rubber and acid, leading to wollen rubble, reduce quality, and lower prices.
+    - **Objective:** Developing a device that mixes rubber and acid more efficiently and quickly, it will improve the consistency and quality of the rubber, thereby increasing the income for rubber tappers.
 
 - ### Design and Development
     - **Material Details:**
@@ -47,9 +47,9 @@
         - Propeller design based on the three-structure of Senna Siamea leaves, developed through experimentation.
 
 - ### Implementation
-    - **Construction/Development:** The design was built using durable materials and tested for performance.
-    - **Challenges Faced:** Encountered issues with initial mixing efficiency, resolved by redesigning the mixing blades.
-
+    - **Construction/Development:** The design was built using durable materials and tested for performance, with iterative improvements made in each version.
+    - **Challenges Faced:** Initially encountered issues with mixing efficiency, which were resolved by redesigning the mixing propeller.
+    
 - ### Product
     <table>
     <tr>
@@ -102,7 +102,7 @@
         - Strengths: Convenient and compact, very high efficiency, and quick mixing. 
         - Weakness: the propeller is little difficult to remove from the rubber, but exchange with mixing speed. (worthwhile to exchange)
 
-    - ### Conclusion
+- ### Conclusion
     The Mixer Rubber Imitate Senna Siamea Leaves project successfully increased income for traditional rubber tappers, reduced the time required to mix rubber and acid, and provided a durable solution for practical use. The best version, Version 3, is priced at 110฿, with 0% swollen rubber and a speed of 1.49 seconds per tree. It increased income from rubber by 2,000-3,000฿ compared to the lastest 110฿ version. It is both usable and beneficial for rubber tappers. According to the experiment, this result is due to the design of the mixing propeller, which allows the rubber, water, and acid to mix thoroughly, decreasing the rate of swollen rubber. The imitation of Senna Siamea leaves in Version 3 increased the touching area of the propeller and improved the efficiency of water flow.
 
 - ### Outcomes and Achievements
@@ -126,10 +126,9 @@
         </tr>
         </table>
 
-
 - ### Archive
-    <img src="grade7-9_picture\Mixer Rubber\archive\poster.png" alt="Image 1" width="100%">
-
+    - [Board presentation](grade7-9_picture/Mixer%20Rubber/archive/poster1.png)
+    - [Poster presentation](grade7-9_picture/Mixer%20Rubber/archive/poster2.png)
 
 ---
 ---
