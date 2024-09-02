@@ -83,6 +83,7 @@ This plan outlines how I aim to improve myself to achieve my life goals. It incl
     - Share my achievements with friends proudly.
     - Be someone others depend on and trust.
     - Be a person who helps others improve their lives.
+    - Be a high skill piano and play it every day.
 
 - **Income Goals:**
     - Earn between ฿50,000 and ฿60,000 per month.

@@ -1,54 +1,68 @@
-# My Plan
+# My Plan Daily plan
 
 ## Home work 
 - [] english summarize (easy) (do in on 4/9/68)
 
 ## Tomorow
-- [x] *Yeeeeeet* talking my mother about piano Badger BX-16 (can play piano to hobby)
-- [] upload my portfolio to porfolio group (Got to show off my work)
-
-## md project (have portfolio to use in applying for work) (before 4/9/65) (4 day)
-- grad 7-9
+- [] continous study
+    - [] go to study plysic full time
+    - [] go to do plysic ativity and collect to get point.
+    - [] do the quick exam before 16:00
+    - [] review the last content, review about all content I have studied, and plan to review before exam
+- [] finished md project
     - [] mixer rubber
     - [] JSTP
 
-- grade 10-12
-    - [] bennett
-    - [] robot student art
-    - [] TJSIF
-    - [] Era Odeyssey
-    - [] POSN COMPUTER camp 2 && competitive programming student art
 
-## The learning path before applying work (30-40 day in mount 9) 
-- freshman (Employ all of this to vercel and use in CV)
-    <!-- ![alt text](freshman/detail.jpg) -->
-    - NodeJS with Database (use both mongoDB and Mysql)
-    - PHP with Database (use both mongoDB and Mysql)
-    - Use other api with serve such as google traslate
-    - throw AI on the serve
-    - Type script react vue
-    - Making Main server to keep all project i have
+## Complete verywell 1/9/2023
+- [x] *Yeeeeeet* talking my mother about piano Badger BX-1##6 (can play piano to hobby)
+- [x] *wohooo 1year that postpone it* upload my portfolio to porfolio group (Got to show off my work)
 
-## Generaly
-- **[] Rewrite all project since grade 7 to .md file** (before 4/9/65) (4 day)
-    reward is kfc 1 meals
+---
 
-- **[] Practice and understand maths and physics before module 1 exam** (before 10/9/65) (6 day)
+# My bigest life target plan
+
+- ## **[] Rewrite all project since grade 7 to .md file** 
+    <br>(have portfolio to use in applying for work) 
+    <br>[(before 6/9/65) (6 day) <br>reward is kfc 1 meals.]
+
+    - **grad 7-9**
+        - [] mixer rubber
+        - [] JSTP
+
+    - **grade 10-12**
+        - [] bennett
+        - [] robot student art
+        - [] TJSIF
+        - [] Era Odeyssey
+        - [] POSN COMPUTER camp 2 && competitive programming student art
+
+- ## **[] Practice and understand maths and physics before module 1 exam** 
+    <br>(have grad more D and have high everage grade) 
+    <br> (before 10/9/65) (4 day from before task and have 1 blank weel to reading a book) <br>reward is kfc 1 meals
+
+- ## The learning path before applying work (30-60 day in september - october) 
+    - freshman (Employ all of this to vercel and use in CV)
+        - **[] NodeJS with Database (use both mongoDB and Mysql)** 
+        <br>(Have show case for back-end working)
+        <br>reward is kfc 1 meals
+
+        - **[] PHP with Database (use both mongoDB and Mysql)** 
+        <br>(Have show case for back-end working but this is php, make me so cool 😂)
+        <br>reward is kfc 1 meals
+
+        - **[] Show case more skill**
+        <br>reward is kfc 1 meals
+            - [] **Use other api with serve such as google traslate** 
+            <br>(Have api show case, make me very cool 😎)<br>
+            - [] **throw AI on the serve** 
+            <br>(have ai showcase and back-end skill 😎)
+            - [] **Type script react vue** 
+            <br>(notice that i great in front-end too 😎)
+            - [] **Making Main server to keep all project i have** 
+            <br>(make my portfolio website for HR, make my work storage to brag every one 😎) 
+        
+
+- ## **[] Rewrite all project since grade 7 to webpage** 
+    <br>(none)(depend on my time)(make the website to see my path way and share to everyone ,everyteacher , and parent that have supported me) 
     <br>reward is kfc 1 meals
-
-- **[] learn amout freshman plan detail and do it** (30-40 day in mount 9) 
-    - NodeJS with Database (use both mongoDB and Mysql) (Have show case working)
-    <br>reward is kfc 1 meals
-
-    - PHP with Database (use both mongoDB and Mysql) (Have show case working but this is php)
-    <br>reward is kfc 1 meals
-
-    - throw AI on the serve & Type script react vue (Have show case working that i can be front end)
-    <br>reward is kfc 1 meals
-
-    - Making Main server to keep all project i have
-    <br>reward is kfc 1 meals
-
-- **[] Rewrite all project since grade 7 to webpage** (none)
-    <br>reward is kfc 1 meals
-
