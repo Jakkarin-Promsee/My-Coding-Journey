@@ -4,8 +4,8 @@
 ## My Projects
 - **[Grade 7-9](#my-project-between-grade-7-9)**
     - [Mixer Rubber Imitate Senna Siamea Leaves (Engineering only)](#mixer-rubber-engineering-only)
-    - **Description:** Development of a Mixer Rubber Water system using a Senna Siamea leaves model to mix formic acid with rubber for the production of cup rubber. This project aimed to the challenges faced by rubber tappers; swollen rubber, which lowers rubber prices and reduces their income.
-    - **Achievements:** 1 Gold and 1 Silver award at the national level.
+        - **Description:** Development of a Mixer Rubber Water system using a Senna Siamea leaves model to mix formic acid with rubber for the production of cup rubber. This project aimed to the challenges faced by rubber tappers; swollen rubber, which lowers rubber prices and reduces their income.
+        - **Achievements:** 1 Gold and 1 Silver award at the national level.
 
 - **[Grade 10-12](#)**
 - **[Freshman (Current)](#)**

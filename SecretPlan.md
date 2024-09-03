@@ -24,6 +24,7 @@ This plan outlines how I aim to improve myself to achieve my life goals. It incl
     - Wake up between 6:00 AM and 6:30 AM.
 - **Eat on a regular schedule**, three times a day.
 - **Limit impulsive browsing** (YouTube Shorts, Instagram Reels, Facebook).
+- **Set time to read social cleary** (Read when after wake up 1h, when go to study, before lunch, when back to domitary, check evey 1:30 - 2 hours)
 - **Read in English** for 30 minutes per day to improve language skills.
 - **Play piano** for 30 minutes per day to enhance skill.
 
