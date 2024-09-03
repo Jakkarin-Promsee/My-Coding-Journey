@@ -61,10 +61,10 @@
         - Shape design optimized for ease of use and durability.
         - Propeller design based on the three-structure of Senna Siamea leaves, developed through experimentation.
 
-- ### Implementation
-    - **Construction/Development:** The design was built using durable materials and tested for performance, with iterative improvements made in each version.
-    - **Challenges Faced:** Initially encountered issues with mixing efficiency, which were resolved by redesigning the mixing propeller.
-    
+- ### Challenges Faced
+    - Initially encountered issues with mixing efficiency, which were resolved by redesigning the mixing propeller.
+    - Faced problems with rubber getting stuck in the propeller, causing damage to the device. This was resolved by changing the material used for the propeller.
+
 - ### Product
     <table>
     <tr>
@@ -146,6 +146,8 @@
     - [Poster presentation](grade7-9_picture/Mixer%20Rubber/archive/poster2.png)
 
 ---
+<br><br><br>
+
 
 ## Wild fire notifications transmitter remotely
 - ### Skills and Technologies Used
@@ -174,7 +176,7 @@
         - **Fire shield:** Ceramic fiber insulation
 
     - **Design Process:**
-        - **Coding Design:** [C code for Node MCU ESP8266 in Arduino IDE (.ino)](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
+        - **Coding Design:** [[C code for Node MCU ESP8266 in Arduino IDE (.ino)]](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
         - **Circuit Design:** The Node MCU ESP8266 is connected to batteries and is used to control the power supply to the sensors. It reads the data from each sensor, stores this data in Google Sheets, and sends notifications via the Line API.
             <table>
             <tr>
@@ -184,16 +186,16 @@
             </tr>
             </table>
 
-        - **3D Product Design:** The full device is designed to be separated into two parts: the main device and the fire shield. This design allows for easy replacement of the fire shield, promoting reusability and convenience.
+        - **3D Product Design:** The full device is designed to be separated into two parts: the main device and the fire shield. This design allows for easy replacement of the fire shield, promoting reusability and convenience. Additionally, a plastic layer covers the entire device, except for the temperature sensors, to protect the circuitry from water and humidity.
 
             <table>
             <tr>
                 <td align="center">
-                <img src="grade7-9_picture\Wild Fire Notification\front.png" alt="Image 1" width="550">
+                <img src="grade7-9_picture\Wild Fire Notification\design-front.png" alt="Image 1" width="550">
                 <br><strong>The front of Device and Fire Shield</strong>
                 </td>
                 <td align="center">
-                <img src="grade7-9_picture\Wild Fire Notification\back.png" alt="Image 1" width="550">
+                <img src="grade7-9_picture\Wild Fire Notification\design-back.png" alt="Image 1" width="550">
                 <br><strong>Finished assembling</strong>
                 </td>
             </tr>
@@ -205,3 +207,47 @@
         - Stores data in Google Sheets every 10 minutes, allowing for historical data review.
         - Batteries are designed to last for 2-3 months (one wildfire season).
 
+- ### Challenges Faced
+    - Encountered difficulty in integrating multiple sensors to work together.
+    - Sending data to the cloud and setting up notifications required advanced knowledge and expertise.
+    - Designing the fire shield to fully enclose all parts of the device presented a challenge.
+
+- ### Product
+    <table>
+    <tr>
+        <td align="center">
+        <img src="grade7-9_picture\Wild Fire Notification\product_1.png" alt="Image 1" width="350">
+        <br><strong>Device</strong>
+        </td>
+        <td align="center">
+        <img src="grade7-9_picture\Wild Fire Notification\product_2.png" alt="Image 1" width="350">
+        <br><strong>Fire shield</strong>
+        </td>
+        <td align="center">
+        <img src="grade7-9_picture\Wild Fire Notification\product_3.png" alt="Image 2" width="350">
+        <br><strong>Finished assembling</strong>
+        </td>
+    </tr>
+    </table>
+
+- ### Testing and Validation
+    The wildfire notification transmitter was successfully tested and can be used in real scenarios. The device demonstrated the ability to withstand forest fire temperatures and endure extreme weather conditions. The only damage observed was to the temperature sensors, which are installed outside the case and the fire shield. This results in a cost of 138฿ per detected forest fire. During the installation height experiment, it was found that the higher the device is placed on a tree, the lower the detected temperature due to the spreading of heat.
+
+- ### Conclusion
+    The wildfire notification transmitter successfully alerts forest fire extinguishing officers and stores data on Google Sheets. The device can be installed in high-risk or hard-to-reach areas as intended. The total cost per device is 2,716฿, with an internet service fee of 350฿ per year and an approximate cost of 138฿ per detected forest fire. The device’s shield can withstand temperatures up to 1800°C and endure extreme weather conditions. The batteries can last approximately 6 months without recharging, which is sufficient for one wildfire season, with a 3-month safety margin to account for deteriorated conditions. The estimated lifespan of the device is around 5 years. 
+
+- ### Outcomes and Achievements
+    - **Awards and Recognition:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
+    - ****
+- ### Archive
+    - [Lastest Code version (.ino)](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
+    - [Full Project Book (.pdf)](/grade7-9_picture/Wild%20Fire%20Notification/Wild%20fire%20notifications%20transmitter%20remotely.pdf)
+        <tr>
+            <td align="center">
+            <a href="grade7-9_picture\Wild Fire Notification\Wild fire notifications transmitter remotely.pdf"><img src="grade7-9_picture\Wild Fire Notification\the cover project book.png" alt="Image 1" width="350">
+            </td></a>
+            
+        </tr>
+
+---
+<br><br><br>
