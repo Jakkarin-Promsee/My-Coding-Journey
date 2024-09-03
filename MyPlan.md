@@ -1,7 +1,7 @@
 # My Plan Daily plan
 
 ## Tomorow
-- [] make lunch to university
+- [x] make lunch to university
 - [] english summarize (easy)
 - [] read the three problem novel for more than 30 minutes
 - [] finished md project
