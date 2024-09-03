@@ -2,10 +2,25 @@
 **This repository will be used to document my every finished project related to my coding journey, from Grade 7 until now. All completed projects will be summarized in this repository.**
 
 ## My Projects
-- **[Grade 7-9](#my-project-between-grade-7-9)**
-    - [Mixer Rubber Imitate Senna Siamea Leaves (Engineering only)](#mixer-rubber-engineering-only)
+- ### [**Grade 7-9**](#my-project-between-grade-7-9)
+    - [**Mixer Rubber Imitate Senna Siamea Leaves**](#mixer-rubber-imitate-senna-siamea-leaves)
+        - **Skills and Technologies Used:**
+            - Engineering only.
+            - Electrical system design and 3D design.
         - **Description:** Development of a Mixer Rubber Water system using a Senna Siamea leaves model to mix formic acid with rubber for the production of cup rubber. This project aimed to the challenges faced by rubber tappers; swollen rubber, which lowers rubber prices and reduces their income.
         - **Achievements:** 1 Gold and 1 Silver award at the national level.
+
+    - [**Wild fire notifications transmitter remotely**](#wild-fire-notifications-transmitter-remotely)
+        - **Skills and Technologies Used:**
+            - Coding the Node MCU ESP-8266 (Micro-controller board) using C language.
+            - Developing a wireless signal notification system for remote monitoring using Line.
+            - Implementing an automatic data storage system on the cloud using Google Sheets.
+            - Designing an electrical system using a gas and temperature sensor, antenna module, and lithium battery.
+            - Designing a 3D model product with fire-resistant properties.
+        - **Description:** This development aims to notify forest fire extinguishing officers in high-risk areas about sparks before they become large wildfires to reduce damage and increase operational efficiency. The development focuses on affordability, durability, and reusability.
+        - **Achievements:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
+    
+        
 
 - **[Grade 10-12](#)**
 - **[Freshman (Current)](#)**
@@ -17,14 +32,14 @@
 ---
 # My Project Between Grade 7-9
 
-## Mixer Rubber imitate Senna Siamea leaves (Engineering only)
+## Mixer Rubber imitate Senna Siamea leaves 
 - ### Skills and Technologies Used
-    - **Using Skills:**
-        - Electrical system design
-        - 3D Shape design
-    - **Technologies and Tools:**
-        - Sketch up software for 3D design
-        - Use baterries and switches in electrical system
+    - **Skills and Technologies Used:**
+        - Engineering design.
+        - Designing an electrical system using motors, switches, and batteries.
+        - Designing a 3D model product with durability properties.
+    - **Tools:**
+        - Sketch up software for 3D design.
 
 - ### Problem Statement
     - **Problem:** Traditional rubber tapping methods face inefficiencies due to poor mixing between rubber and acid, leading to wollen rubble, reduce quality, and lower prices.
@@ -131,5 +146,62 @@
     - [Poster presentation](grade7-9_picture/Mixer%20Rubber/archive/poster2.png)
 
 ---
----
+
+## Wild fire notifications transmitter remotely
+- ### Skills and Technologies Used
+    - **Skills and Technologies Used:**
+        - Coding the Node MCU ESP-8266 (Micro-controller board) using C language.
+        - Developing a wireless signal notification system for remote monitoring using Line.
+        - Implementing an automatic data storage system on the cloud using Google Sheets.
+        - Designing an electrical system using a gas and temperature sensor, AIS-antenna module, and lithium battery.
+        - Designing a 3D model product with fire-resistant properties.
+    - **Tools:**
+        - Arduino IDE compiler for coding.
+        - Line API for notifications.
+        - Google Sheets App Script to manage the storage system.
+
+- ### Problem Statement
+    - **Problem:** Forest fire extinguishing officers often don’t know where sparks occur in the forest until the fire has spread too large to control, especially in high-risk, hard-to-reach areas like mountain grooves. Uncontrollable forest fires cause significant damage to people in the area.
+    - **Objective:** Develop a device that notifies extinguishing officers of sparks or small fires in hard-to-reach areas, increasing their control efficiency. The development focuses on affordability, durability, and reusability.
+
+- ### Design and Development
+    - **Material Details:**
+        - **Micro Controller Board:** Node MCU ESP8266 V.3
+        - **GPS Module:** GPS6MV2
+        - **Temperature Sensor:** DS18B20
+        - **Baterries:** 3.3v Lithium phosphate 1500mA
+        - **Body:** High temperature resistant plastic
+        - **Fire shield:** Ceramic fiber insulation
+
+    - **Design Process:**
+        - **Coding Design:** [C code for Node MCU ESP8266 in Arduino IDE (.ino)](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
+        - **Circuit Design:** The Node MCU ESP8266 is connected to batteries and is used to control the power supply to the sensors. It reads the data from each sensor, stores this data in Google Sheets, and sends notifications via the Line API.
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade7-9_picture\Wild Fire Notification\circuit-design.png" alt="Image 1" width="600">
+                </td>
+            </tr>
+            </table>
+
+        - **3D Product Design:** The full device is designed to be separated into two parts: the main device and the fire shield. This design allows for easy replacement of the fire shield, promoting reusability and convenience.
+
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade7-9_picture\Wild Fire Notification\front.png" alt="Image 1" width="550">
+                <br><strong>The front of Device and Fire Shield</strong>
+                </td>
+                <td align="center">
+                <img src="grade7-9_picture\Wild Fire Notification\back.png" alt="Image 1" width="550">
+                <br><strong>Finished assembling</strong>
+                </td>
+            </tr>
+            </table>
+
+    - **Technical Details:**
+        - Utilizes two temperature sensors to detect heat from forest fires. The sensors can check each other to ensure they are functioning correctly.
+        - Capable of sending three types of notifications to officers: normal operation, sensor error, and detection of fire or sparks.
+        - Stores data in Google Sheets every 10 minutes, allowing for historical data review.
+        - Batteries are designed to last for 2-3 months (one wildfire season).
 
