@@ -69,4 +69,13 @@
 
 
 ## 3/9/2567
+- **go to bed:** 0:11
+- **sleep:** 0:26
+- **wake up:** 6:00 (get out the bed 6:20)
+    - - This morning, my motivation and inspiration to change myself fluctuated again, But I know how to control this feeling. I closed my eyes and thought about my life aim calmly, my motivation and inspiration are increasing continuously. But when I got out the bed, I changed my body post, I found a new sleep post that was very comfortable and convenient, it made me sleep again, I fell asleep for 20 minutes before waking up again. I was almost swallowed by my weakness. Every morning was so cold, my body was so heavy, my eyes were difficult to open, and my my was be weakness. Today, I have many plans to make, I think to myself, that I won't give up, I won't let myself fall here, and there's no way that I will give up for myself. No matter how much I fall I'll be able to climb up again and again. To become the best version of myself, I won't surrender to fate, I will step forward though I must be resisted by everyone, and I won't let time waste again. Today, I will do my plan completely, I must improve my time management. yesterday, I wasted time too much in a new friend group (I should reduce this time for myself), I wasted my a lot of time on social media and Messenger, and I wasted my time falling asleep. This is my mistake, I can't do the plan I thought yesterday, I give the time myself too little. Today, I will do everything faster but efficiently, I will reduce my waste of time; the time I don't do anything, I will prioritize planned tasks to do, and I will make sure that I can do all of this day, I will give time myself more, and I will control my social media pulse (control the time I will read and response clearly to text).
+
 ## 4/9/2567
+## 5/9/2567
+## 6/9/2567
+## 7/9/2567
+## 8/9/2567

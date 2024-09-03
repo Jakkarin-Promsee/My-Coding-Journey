@@ -1,12 +1,12 @@
 # My Plan Daily plan
 
 ## Tomorow
+- [] make lunch to university
 - [] english summarize (easy)
 - [] read the three problem novel for more than 30 minutes
 - [] finished md project
     - [] JSTP
     - [] TJSIF
-    - [] Era Odeyssey
 
 ## Compltete not well enough 2/9/2023 
 In this day i have more variable; more people contact me from my poftfolio post, In this day i found new group friends and we go to shop togerther. And the last day, I fell asleep accidently from my fatigue.
