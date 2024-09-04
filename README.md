@@ -12,10 +12,10 @@
 
     - [**Wild fire notifications transmitter remotely**](#wild-fire-notifications-transmitter-remotely)
         - **Skills and Technologies Used:**
-            - Coding the Node MCU ESP-8266 (Micro-controller board) using C language.
-            - Developing a wireless signal notification system for remote monitoring using Line.
+            - Coding C language with Node MCU ESP-8266 (Micro-controller board).
+            - Implementing a wireless signal notification system for remote monitoring using Line.
             - Implementing an automatic data storage system on the cloud using Google Sheets.
-            - Designing an electrical system using a gas and temperature sensor, antenna module, and lithium battery.
+            - Designing an electrical system incorporating gas and temperature sensor, antenna module, and lithium battery.
             - Designing a 3D model product with fire-resistant properties.
         - **Description:** This development aims to notify forest fire extinguishing officers in high-risk areas about sparks before they become large wildfires to reduce damage and increase operational efficiency. The development focuses on affordability, durability, and reusability.
         - **Achievements:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
@@ -23,13 +23,17 @@
 - ### **[Grade 10-12](#my-project-between-grade-10-12)**
     - [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence)
         - **Skills and Technologies Used:**
-            - Coding the Node MCU ESP-8266 (Micro-controller board) using C language.
-            - Developing a wireless signal notification system for remote monitoring using Line.
+            - Coding using C language with the Node MCU ESP-8266, working together with Arduino (Microcontroller board).
+            - Implementing a water quality calculation system using pH, DO (Dissolved Oxygen), and temperature sensors.
+            - Implementing a wireless signal notification system using Line.
             - Implementing an automatic data storage system on the cloud using Google Sheets.
-            - Designing an electrical system using a gas and temperature sensor, antenna module, and lithium battery.
-            - Designing a 3D model product with fire-resistant properties.
-        - **Description:** This development aims to notify forest fire extinguishing officers in high-risk areas about sparks before they become large wildfires to reduce damage and increase operational efficiency. The development focuses on affordability, durability, and reusability.
-        - **Achievements:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
+            - Designing an electrical system incorporating pH, DO, gas, and temperature sensors.
+            - Designing a 3D model product with water-resistant properties.
+
+        - **Description:** This development aims to increase the efficiency of water treatment systems by using IoT technology to notify water treatment officers via Line when the environmental conditions within the system are harmful to water-treatment bacteria. The project utilizes an artificial intelligence algorithm to calculate water quality using pH, DO (Dissolved Oxygen), and temperature. The development focuses on durability and accuracy.
+
+        - **Achievements:** Represented in a presentation to the Prime Minister of Thailand at the Thailand-Japan Student ICE Fair 2022 (national event).
+
 
 - ### **[Freshman (Current)](#my-project-between-freshman)**
 
