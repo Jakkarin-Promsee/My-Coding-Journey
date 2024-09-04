@@ -253,7 +253,7 @@
         - [Lastest Code version (.ino)](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
         - Full Project Book (.pdf)
             - [Github](/grade7-9_picture/Wild%20Fire%20Notification/Wild%20fire%20notifications%20transmitter%20remotely.pdf)
-            - [Drive](https://drive.google.com/file/d/1wq23_WxlONmL-cdAyybcr5L9QEauEcZY/view?usp=sharing)
+            - [Drive](https://drive.google.com/file/d/1wq23_WxlONmL-cdAyybcr5L9QEauEcZY/view?usp=sharing){:target="_blank"}
             <tr>
                 <td align="center">
                 <a href="/grade7-9_picture/Wild Fire Notification/Wild fire notifications transmitter remotely.pdf"><img src="grade7-9_picture\Wild Fire Notification\the cover project book.png" alt="Image 1" width="350">
