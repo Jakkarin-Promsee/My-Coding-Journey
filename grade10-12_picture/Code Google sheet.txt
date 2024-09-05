@@ -1,0 +1,82 @@
+function doGet(e) { 
+  Logger.log( JSON.stringify(e) );
+  var result = 'Ok';
+  if (e.parameter == 'undefined') {
+    result = 'No Parameters';
+  }
+  else {
+    var sheet_id = '1Oi0Y6V5pzOilPc4H7e21mkeTp3CRW-A_StrKVmR7ivE'; 	// Spreadsheet ID
+    var sheet = SpreadsheetApp.openById(sheet_id).getActiveSheet();
+    var newRow = sheet.getLastRow() + 1;						
+    var rowData = [];
+    var Curr_Date = new Date();
+    rowData[0] = Curr_Date; // Date in column A
+    var Curr_Time = Utilities.formatDate(Curr_Date, "Asia/Bangkok", 'HH:mm:ss');
+    rowData[1] = Curr_Time; // Time in column B
+    for (var param in e.parameter) {
+      Logger.log('In for loop, param=' + param);
+      var value = stripQuotes(e.parameter[param]);
+      Logger.log(param + ':' + e.parameter[param]);
+      switch (param) {
+
+        case 'wtemp':
+          rowData[2] = value/10000; // Temperature in column D
+          result = 'wtemp Written on column H'; 
+          break;
+        case 'wph':
+          rowData[3] = value/10000; // Temperature in column D
+          result = 'wph Written on column I'; 
+          break;
+        case 'wdo':
+          rowData[4] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+    
+        case 'pa':
+          rowData[9] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+        case 'pb':
+          rowData[10] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+        case 'pc':
+          rowData[11] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+        case 'perror':
+          rowData[6] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+
+        
+        case 'da':
+          rowData[13] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+        case 'db':
+          rowData[14] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+        case 'dc':
+          rowData[15] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+        case 'derror':
+          rowData[7] = value/10000; // Temperature in column D
+          result = 'wdo Written on column J'; 
+          break;
+
+        
+
+      }
+    }
+    Logger.log(JSON.stringify(rowData));
+    var newRange = sheet.getRange(newRow, 1, 1, rowData.length);
+    newRange.setValues([rowData]);
+  }
+  return ContentService.createTextOutput(result);
+}
+function stripQuotes( value ) {
+  return value.replace(/^["']|['"]$/g, "");
+}

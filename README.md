@@ -21,7 +21,7 @@
         - **Achievements:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
     
 - ### **[Grade 10-12](#my-project-between-grade-10-12)**
-    - [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence)
+    - [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAP.)**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence-japs)
         - **Skills and Technologies Used:**
             - Coding using C language with the Node MCU ESP-8266, working together with Arduino (Microcontroller board).
             - Implementing a water quality calculation system using pH, DO (Dissolved Oxygen), and temperature sensors.
@@ -190,7 +190,8 @@
             - **Fire shield:** Ceramic fiber insulation
 
         - **Design Process:**
-            - **Coding Design:** [[C code for Node MCU ESP8266 in Arduino IDE (.ino)]](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
+            - **Coding Design:** The NodeMCU is used to receive temperature data from sensors, and when the temperature exceeds the set limit, the board sends a notification to forest fire extinguishing officers. Every 10 minutes, the device sends the average of all recorded variables to Google Sheets for storage.
+                - [[Node MCU ESP8266 Code for Arduino IDE (.ino)]](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
             - **Circuit Design:** The Node MCU ESP8266 is connected to batteries and is used to control the power supply to the sensors. It reads the data from each sensor, stores this data in Google Sheets, and sends notifications via the Line API.
                 <table>
                 <tr>
@@ -258,6 +259,7 @@
         - Full Project Book (.pdf)
             - [Github](/grade7-9_picture/Wild%20Fire%20Notification/Wild%20fire%20notifications%20transmitter%20remotely.pdf)
             - [Drive](https://drive.google.com/file/d/1wq23_WxlONmL-cdAyybcr5L9QEauEcZY/view?usp=sharing)
+            <br>
             <tr>
                 <td align="center">
                 <a href="/grade7-9_picture/Wild Fire Notification/Wild fire notifications transmitter remotely.pdf"><img src="grade7-9_picture\Wild Fire Notification\the cover project book.png" alt="Image 1" width="350">
@@ -270,10 +272,10 @@
 ---
 ---
 # My Project Between Grade 10-12
-- [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence)
+- [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAPS.)**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence-japs)
 ---
 
-- ## Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence
+- ## Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAPS.)
     - ### Skills and Technologies Used
         - **Skills and Technologies Used:**
             - Coding the Node MCU ESP-8266 (Micro-controller board) using C language.
@@ -290,22 +292,36 @@
         - **Problem:** Forest fire extinguishing officers often don’t know where sparks occur in the forest until the fire has spread too large to control, especially in high-risk, hard-to-reach areas like mountain grooves. Uncontrollable forest fires cause significant damage to people in the area.
         - **Objective:** Develop a device that notifies extinguishing officers of sparks or small fires in hard-to-reach areas, increasing their control efficiency. The development focuses on affordability, durability, and reusability.
 
-    - ### Design and Development
-        - **Material Details:**
-            - **Micro Controller Board:** Node MCU ESP8266 V.3
-            - **GPS Module:** GPS6MV2
-            - **Temperature Sensor:** DS18B20
-            - **Baterries:** 3.3v Lithium phosphate 1500mA
-            - **Body:** High temperature resistant plastic
-            - **Fire shield:** Ceramic fiber insulation
+- ### Design and Development
+    - **Material Details:**
+        - **Microcontroller Board:** 
+            - **Arduino Uno V.3:** 32 KB memory and 1 KB SRAM (Used to read and decode data from sensors)
+            - **Node MCU ESP8266 V.3:** 4 MB memory and 64 KB SRAM (Used for calculations, predictions, and internet connectivity)
+        - **Gas Sensors:** 
+            - **Temperature and Humidity:** DHT 11
+            - **LPG:** MQ 5
+            - **NH3 and Alcohol:** MQ 135
+        - **Water Sensors:** 
+            - **Temperature:** DS18B20
+            - **DO (Dissolved Oxygen):** 5V Analog Dissolved Oxygen Sensor
+            - **pH:** 5V Analog pH Meter
+        - **Time Sensor:** DS3231
+        - **Body:** High-grade electrical plastic box
+
 
         - **Design Process:**
-            - **Coding Design:** [[C code for Node MCU ESP8266 in Arduino IDE (.ino)]](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
-            - **Circuit Design:** The Node MCU ESP8266 is connected to batteries and is used to control the power supply to the sensors. It reads the data from each sensor, stores this data in Google Sheets, and sends notifications via the Line API.
+            - **Coding Design:**  
+            Two microcontroller boards work together in this design. The Arduino receives data from the sensors and converts the analog data to digital from seven sensors. The NodeMCU then calculates the harm rate for the bacteria based on the data from the Arduino. When this value reaches the limit, the system notifies the water treatment officer. Every 10 minutes, the device sends the average of all recorded variables to Google Sheets for storage.
+                - [[Arduino Code for Arduino IDE (.ino)]](grade10-12_picture\A1.ino)
+                - [[NodeMCU Code for Arduino IDE (.ino)]](grade10-12_picture\N1.ino)
+                - [[Google Sheet App Script (.txt)]](grade10-12_picture\Code%20Google%20sheet.txt)
+                - [[Main Calculate Function Only (.cpp)]](grade10-12_picture\main_calculate.cpp)
+            - **Circuit Design:** The NodeMCU is connected to the Arduino via wires using the `Wire.h` library, and all sensors, except the time sensor, are connected to the Arduino. The power supply uses an adapter to convert from 220V to 5V, which is connected to the Arduino. The NodeMCU is powered through the Arduino's 3.3V pin.
+
                 <table>
                 <tr>
                     <td align="center">
-                    <img src="grade7-9_picture\Wild Fire Notification\circuit-design.png" alt="Image 1" width="600">
+                    <img src="grade10-12_picture\circuit.jpg" alt="Image 1" width="600">
                     </td>
                 </tr>
                 </table>
