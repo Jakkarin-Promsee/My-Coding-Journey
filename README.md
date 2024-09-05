@@ -77,8 +77,8 @@
             - Propeller design based on the three-structure of Senna Siamea leaves, developed through experimentation.
 
     - ### Challenges Faced
-        - Initially encountered issues with mixing efficiency, which were resolved by redesigning the mixing propeller.
-        - Faced problems with rubber getting stuck in the propeller, causing damage to the device. This was resolved by changing the material used for the propeller.
+        - **Mixing Efficiency Issues**: Initially encountered problems with mixing efficiency, which were resolved by redesigning the mixing propeller.
+        - **Material Challenges**: Faced issues with rubber getting stuck in the propeller, causing damage to the device. This was resolved by changing the material used for the propeller.
 
     - ### Product
         <table>
@@ -223,9 +223,9 @@
             - Batteries are designed to last for 2-3 months (one wildfire season).
 
     - ### Challenges Faced
-        - Encountered difficulty in integrating multiple sensors to work together.
-        - Sending data to the cloud and setting up notifications required advanced knowledge and expertise.
-        - Designing the fire shield to fully enclose all parts of the device presented a challenge.
+        - **Sensor Integration**: Faced difficulties in integrating multiple sensors to work together seamlessly.
+        - **Cloud and Notifications Setup**: Sending data to the cloud and setting up notifications required advanced technical knowledge and expertise.
+        - **Fire Shield Design**: Designing the fire shield to fully enclose and protect all parts of the device was a challenging task.
 
     - ### Product
         <table>
@@ -292,80 +292,95 @@
         - **Problem:** Forest fire extinguishing officers often don’t know where sparks occur in the forest until the fire has spread too large to control, especially in high-risk, hard-to-reach areas like mountain grooves. Uncontrollable forest fires cause significant damage to people in the area.
         - **Objective:** Develop a device that notifies extinguishing officers of sparks or small fires in hard-to-reach areas, increasing their control efficiency. The development focuses on affordability, durability, and reusability.
 
-- ### Design and Development
-    - **Material Details:**
-        - **Microcontroller Board:** 
-            - **Arduino Uno V.3:** 32 KB memory and 1 KB SRAM (Used to read and decode data from sensors)
-            - **Node MCU ESP8266 V.3:** 4 MB memory and 64 KB SRAM (Used for calculations, predictions, and internet connectivity)
-        - **Gas Sensors:** 
-            - **Temperature and Humidity:** DHT 11
-            - **LPG:** MQ 5
-            - **NH3 and Alcohol:** MQ 135
-        - **Water Sensors:** 
-            - **Temperature:** DS18B20
-            - **DO (Dissolved Oxygen):** 5V Analog Dissolved Oxygen Sensor
-            - **pH:** 5V Analog pH Meter
-        - **Time Sensor:** DS3231
-        - **Body:** High-grade electrical plastic box
+    - ### Design and Development
+        - **Material Details:**
+            - **Microcontroller Board:** 
+                - **Arduino Uno V.3:** 32 KB memory and 1 KB SRAM (Used to read and decode data from sensors)
+                - **Node MCU ESP8266 V.3:** 4 MB memory and 64 KB SRAM (Used for calculations, predictions, and internet connectivity)
+            - **Gas Sensors:** 
+                - **Temperature and Humidity:** DHT 11
+                - **LPG:** MQ 5
+                - **NH3 and Alcohol:** MQ 135
+            - **Water Sensors:** 
+                - **Temperature:** DS18B20
+                - **DO (Dissolved Oxygen):** 5V Analog Dissolved Oxygen Sensor
+                - **pH:** 5V Analog pH Meter
+            - **Time Sensor:** DS3231
+            - **Body:** High-grade electrical plastic box
 
 
-        - **Design Process:**
-            - **Coding Design:**  
-            Two microcontroller boards work together in this design. The Arduino receives data from the sensors and converts the analog data to digital from seven sensors. The NodeMCU then calculates the harm rate for the bacteria based on the data from the Arduino. When this value reaches the limit, the system notifies the water treatment officer. Every 10 minutes, the device sends the average of all recorded variables to Google Sheets for storage.
-                - [[Arduino Code for Arduino IDE (.ino)]](grade10-12_picture\A1.ino)
-                - [[NodeMCU Code for Arduino IDE (.ino)]](grade10-12_picture\N1.ino)
-                - [[Google Sheet App Script (.txt)]](grade10-12_picture\Code%20Google%20sheet.txt)
-                - [[Main Calculate Function Only (.cpp)]](grade10-12_picture\main_calculate.cpp)
-            - **Circuit Design:** The NodeMCU is connected to the Arduino via wires using the `Wire.h` library, and all sensors, except the time sensor, are connected to the Arduino. The power supply uses an adapter to convert from 220V to 5V, which is connected to the Arduino. The NodeMCU is powered through the Arduino's 3.3V pin.
+            - **Design Process:**
+                - **Coding Design:**  
+                Two microcontroller boards work together in this design. The Arduino receives data from the sensors and converts the analog data to digital from seven sensors. The NodeMCU then calculates the harm rate for the bacteria based on the data from the Arduino. When this value reaches the limit, the system notifies the water treatment officer. Every 10 minutes, the device sends the average of all recorded variables to Google Sheets for storage.
+                    - [[Arduino Code for Arduino IDE (.ino)]](grade10-12_picture/JAPS/Code/A1.ino)
+                    - [[NodeMCU Code for Arduino IDE (.ino)]](grade10-12_picture/JAPS/Code/N1.ino)
+                    - [[Google Sheet App Script (.txt)]](grade10-12_picture/JAPS/Code/Code%20Google%20sheet.txt)
+                    - [[Main Calculate Function Only (.cpp)]](grade10-12_picture/JAPS/Code/main_calculate.cpp)
+                - **Circuit Design:** The NodeMCU is connected to the Arduino via wires using the `Wire.h` library, and all sensors, except the time sensor, are connected to the Arduino. The power supply uses an adapter to convert from 220V to 5V, which is connected to the Arduino. The NodeMCU is powered through the Arduino's 3.3V pin.
+                    <table>
+                    <tr>
+                        <td align="center">
+                        <img src="grade10-12_picture/JAPS/circuit.jpg" alt="Image 1" width="900">
+                        </td>
+                    </tr>
+                    </table>
 
-                <table>
-                <tr>
-                    <td align="center">
-                    <img src="grade10-12_picture\circuit.jpg" alt="Image 1" width="600">
-                    </td>
-                </tr>
-                </table>
+                - **3D Product Design:** The device is designed to float on the water in a water treatment tank, with a 220V plug connected for power supply from above. All sensors are positioned outside the box. The device must have the best water and humidity protection, ensuring no water enters inside the box.
 
-            - **3D Product Design:** The full device is designed to be separated into two parts: the main device and the fire shield. This design allows for easy replacement of the fire shield, promoting reusability and convenience. Additionally, a plastic layer covers the entire device, except for the temperature sensors, to protect the circuitry from water and humidity.
+                    <table>
+                    <tr>
+                        <td align="center">
+                        <img src="grade10-12_picture/JAPS/installD.png" alt="Image 1" height ="260">
+                        <br><strong>When Install Device</strong>
+                        </td>
+                        <td align="center">
+                        <img src="grade10-12_picture/JAPS/overviewD.png" alt="Image 1" height ="260">
+                        <br><strong>Overveiew</strong>
+                        </td>
+                    </tr>
+                    </table>
 
-                <table>
-                <tr>
-                    <td align="center">
-                    <img src="grade7-9_picture\Wild Fire Notification\design-front.png" alt="Image 1" width="550">
-                    <br><strong>The front of Device and Fire Shield</strong>
-                    </td>
-                    <td align="center">
-                    <img src="grade7-9_picture\Wild Fire Notification\design-back.png" alt="Image 1" width="550">
-                    <br><strong>Finished assembling</strong>
-                    </td>
-                </tr>
-                </table>
+            - **Technical Details:**
+                - Utilizes two microcontroller boards working together via wired connection.
+                - Use data science knowled to develop a predictive function with self-learning capabilities, utilizing the maximum memory of 4 MB and 64 KB SRAM (the maximum capacity of NodeMCU ESP8266).
+                - Sends notifications via Line using the LineNotification API.
+                - Stores data in Google Sheets every 10 minutes, enabling historical data review.
 
-        - **Technical Details:**
-            - Utilizes two temperature sensors to detect heat from forest fires. The sensors can check each other to ensure they are functioning correctly.
-            - Capable of sending three types of notifications to officers: normal operation, sensor error, and detection of fire or sparks.
-            - Stores data in Google Sheets every 10 minutes, allowing for historical data review.
-            - Batteries are designed to last for 2-3 months (one wildfire season).
 
     - ### Challenges Faced
-        - Encountered difficulty in integrating multiple sensors to work together.
-        - Sending data to the cloud and setting up notifications required advanced knowledge and expertise.
-        - Designing the fire shield to fully enclose all parts of the device presented a challenge.
+        - **Data Noise**: Noise occurred during communication between the two boards, leading to occasional data inaccuracies. This was solved by sending data twice and verifying that both data sets are identical. If they aren't, the NodeMCU (receiver) sends a signal to the Arduino to resend the data.
+        - **Memory Constraints**: The 4MB memory and 64KB SRAM were insufficient for deep calculations. This was resolved by optimizing and reducing the size of calculations.
+        - **Network Issues**: The project uses a local school network, which experiences peak usage in the afternoon. This caused problems with sending data to the API and cloud. The issue was addressed by implementing a reconnect loop and using temporary memory to store data that couldn’t be immediately sent.
+        - **Water Shield Design**: Ensuring a waterproof shield that could withstand the pH and water waves in the water treatment system was a challenge.
+
 
     - ### Product
         <table>
         <tr>
             <td align="center">
-            <img src="grade7-9_picture\Wild Fire Notification\product_1.png" alt="Image 1" width="350">
-            <br><strong>Device</strong>
+            <img src="grade10-12_picture\JAPS\20221214_123121.png" alt="Image 1" width="500">
+            <br><strong>1st Version (Test Script)</strong>
             </td>
             <td align="center">
-            <img src="grade7-9_picture\Wild Fire Notification\product_2.png" alt="Image 1" width="350">
-            <br><strong>Fire shield</strong>
+            <img src="grade10-12_picture\JAPS\IMG_0032.png" alt="Image 1" width="500">
+            <br><strong>2nd Version (Complete Script)</strong>
+            </td>
+        </tr>
+        </table>
+
+        <table>
+        <tr>
+            <td align="center">
+            <img src="grade10-12_picture\JAPS\IMG_20220627_154542.jpg" alt="Image 1" width="500">
+            <br><strong>Overview of Water Treatment System</strong>
             </td>
             <td align="center">
-            <img src="grade7-9_picture\Wild Fire Notification\product_3.png" alt="Image 2" width="350">
-            <br><strong>Finished assembling</strong>
+            <img src="grade10-12_picture\JAPS\IMG_0051.png" alt="Image 1" width="500">
+            <br><strong>Install Devicev (Just Moment)</strong>
+            </td>
+            <td align="center">
+            <img src="grade10-12_picture\JAPS\IMG_0945.png" alt="Image 1" width="500">
+            <br><strong>Install Device (1 Day)</strong>
             </td>
         </tr>
         </table>
