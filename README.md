@@ -320,7 +320,7 @@
                     <table>
                     <tr>
                         <td align="center">
-                        <img src="grade10-12_picture/JAPS/circuit.jpg" alt="Image 1" width="900">
+                        <img src="grade10-12_picture\JAPS\disign\circuit.jpg" alt="Image 1" width="900">
                         </td>
                     </tr>
                     </table>
@@ -330,11 +330,11 @@
                     <table>
                     <tr>
                         <td align="center">
-                        <img src="grade10-12_picture/JAPS/installD.png" alt="Image 1" width ="430">
+                        <img src="grade10-12_picture\JAPS\disign\diagram-install-device.png" alt="Image 1" width ="430">
                         <br><strong>When Install Device</strong>
                         </td>
                         <td align="center">
-                        <img src="grade10-12_picture/JAPS/overviewD.png" alt="Image 1" width ="390">
+                        <img src="grade10-12_picture\JAPS\disign\overview-device.png" alt="Image 1" width ="390">
                         <br><strong>Overveiew</strong>
                         </td>
                     </tr>
@@ -355,35 +355,50 @@
 
 
     - ### Product
-        <table>
-        <tr>
-            <td align="center">
-            <img src="grade10-12_picture\JAPS\20221214_123121.png" alt="Image 1" width="500">
-            <br><strong>1st Version (Test Script)</strong>
-            </td>
-            <td align="center">
-            <img src="grade10-12_picture\JAPS\IMG_0032.png" alt="Image 1" width="500">
-            <br><strong>2nd Version (Complete Script)</strong>
-            </td>
-        </tr>
-        </table>
+        - **Overview**:
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\V1-device.png" alt="Image 1" width="500">
+                <br><strong>1st Version (Test Script)</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\V2-device.png" alt="Image 1" width="500">
+                <br><strong>2nd Version (Complete Script)</strong>
+                </td>
+            </tr>
+            </table>
 
-        <table>
-        <tr>
-            <td align="center">
-            <img src="grade10-12_picture\JAPS\IMG_20220627_154542.jpg" alt="Image 1" width="500">
-            <br><strong>Overview of Water Treatment System</strong>
-            </td>
-            <td align="center">
-            <img src="grade10-12_picture\JAPS\IMG_0051.png" alt="Image 1" width="500">
-            <br><strong>Install Devicev (Just Moment)</strong>
-            </td>
-            <td align="center">
-            <img src="grade10-12_picture\JAPS\IMG_0945.png" alt="Image 1" width="500">
-            <br><strong>Install Device (1 Day)</strong>
-            </td>
-        </tr>
-        </table>
+        - **When Install:**
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\waterTreatmentSystem.jpg" alt="Image 1" width="500">
+                <br><strong>Overview of Water Treatment System</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\install-justMoment.png" alt="Image 1" width="500">
+                <br><strong>Install Devicev (Just Moment)</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\install-1day.png" alt="Image 1" width="500">
+                <br><strong>Install Device (1 Day)</strong>
+                </td>
+            </tr>
+            </table>
+
+        - **Output:**
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\line-notification.png" alt="Image 1" width="200">
+                <br><strong>Line Notification</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\googleSheet-table.png" alt="Image 1" width="800">
+                <br><strong>Google Sheet Storage (Just Moment)</strong>
+            </tr>
+            </table>
 
     - ### Testing and Validation
         The wildfire notification transmitter was successfully tested and can be used in real scenarios. The device demonstrated the ability to withstand forest fire temperatures and endure extreme weather conditions. The only damage observed was to the temperature sensors, which are installed outside the case and the fire shield. This results in a cost of 138฿ per detected forest fire. During the installation height experiment, it was found that the higher the device is placed on a tree, the lower the detected temperature due to the spreading of heat.
