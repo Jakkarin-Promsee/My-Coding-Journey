@@ -330,11 +330,11 @@
                     <table>
                     <tr>
                         <td align="center">
-                        <img src="grade10-12_picture/JAPS/installD.png" alt="Image 1" height ="260">
+                        <img src="grade10-12_picture/JAPS/installD.png" alt="Image 1" width ="430">
                         <br><strong>When Install Device</strong>
                         </td>
                         <td align="center">
-                        <img src="grade10-12_picture/JAPS/overviewD.png" alt="Image 1" height ="260">
+                        <img src="grade10-12_picture/JAPS/overviewD.png" alt="Image 1" width ="390">
                         <br><strong>Overveiew</strong>
                         </td>
                     </tr>
