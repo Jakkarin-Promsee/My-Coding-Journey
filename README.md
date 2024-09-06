@@ -33,7 +33,17 @@
             - Designing an electrical system incorporating pH, DO, gas, and temperature sensors.
             - Designing a 3D model product with water-resistant properties.
         - **Description:** This development aims to increase the efficiency of water treatment systems by using IoT technology to notify water treatment officers via Line when the environmental conditions within the system are harmful to water-treatment bacteria. The project utilizes an artificial intelligence algorithm to calculate water quality using pH, DO (Dissolved Oxygen), and temperature. The development focuses on durability and accuracy.
-        
+
+    - [**Era Odyssey, The IDLE Game to provide knowledge about geological time (Moblie)**](#era-odyssey-the-idle-game-to-provide-knowledge-about-geological-time-moblie)
+        - **Achievements:** Represented in the presentations at The 3rd PCSHS Science Symposium 2023 and received the Gold Award in the computer presentation category.
+        - **Skills and Technologies Used:**
+            - Developed an IDLE offline game using C# language with Unity.
+            - Designed game database and user experience/user interface (UX/UI).
+            - Created teaching media that includes text, manga, and gameplay elements.
+            - Conceptualized the game's storyline, main characters, enemies, player skills, materials, and weapons.
+            - Drew in-game assets and materials using Procreate.
+        - **Description:**  This project aims to create a game centered around creatures from various geological periods. The inspiration comes from the fact that there are very few games that feature ancient creatures (other than dinosaurs), such as *trilobites*, *Benmoulai*, *Regalis*, and the others. Our goal is to develop a game that not only entertains but also educates players about life forms from the early stages of the solar system. The game features a unique skill system based on the four elements, as well as a variety of materials and weapons, all within the IDLE game catagory.
+
 
 - ### **[Freshman (Current)](#my-project-between-freshman)**
 
@@ -286,6 +296,9 @@
 ---
 # My Project Between Grade 10-12
 - [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAPS.)**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence-japs)
+- [**Era Odyssey, The IDLE Game to provide knowledge about geological time (Moblie)**](#era-odyssey-the-idle-game-to-provide-knowledge-about-geological-time-moblie)
+
+
 ---
 
 - ## Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAPS.)
@@ -353,11 +366,11 @@
                     </tr>
                     </table>
 
-            - **Technical Details:**
-                - Utilizes two microcontroller boards working together via wired connection.
-                - Use data science knowled to develop a predictive function with self-learning capabilities, utilizing the maximum memory of 4 MB and 64 KB SRAM (the maximum capacity of NodeMCU ESP8266).
-                - Sends notifications via Line using the LineNotification API.
-                - Stores data in Google Sheets every 10 minutes, enabling historical data review.
+        - **Technical Details:**
+            - Utilizes two microcontroller boards working together via wired connection.
+            - Use data science knowled to develop a predictive function with self-learning capabilities, utilizing the maximum memory of 4 MB and 64 KB SRAM (the maximum capacity of NodeMCU ESP8266).
+            - Sends notifications via Line using the LineNotification API.
+            - Stores data in Google Sheets every 10 minutes, enabling historical data review.
 
 
     - ### Challenges Faced
@@ -483,6 +496,213 @@
                     </td>
                     <td align="center">
                     <a href="grade10-12_picture\JAPS\archieve\JAPS_completely.pdf"><img src="grade10-12_picture\JAPS\archieve\project-book_cover.png" alt="Image 1" width="350"></a>
+                    <br><strong>Project Book</strong>
+                    </td>
+                </tr>
+            </table>
+
+---
+<br>
+
+- ## Era Odyssey, The IDLE Game to provide knowledge about geological time (Moblie)          
+    - ### Skills and Technologies Used
+        - **Skills and Technologies Used:**
+            - Developed an IDLE offline game using C# language with Unity.
+            - Designed game database and user experience/user interface (UX/UI).
+            - Created teaching media that includes text, manga, and gameplay elements.
+            - Conceptualized the game's storyline, main characters, enemies, player skills, materials, and weapons.
+            - Drew in-game manga, assets and materials using Procreate.
+        - **Tools:**
+            - Unity for coding the game.
+            - Procreate for drawing manga, assets and material
+
+
+    - ### Problem Statement
+        - **Problem:** Currently, very few games feature ancient creatures beyond dinosaurs. This has inspired us to create a game that showcases a broader range of prehistoric life forms.
+        - **Objective:** Develop an educational and entertaining game that introduces players to life forms from the early stages of the solar system and different geological periods. The game will include a unique four-element skill system, various materials, and weapons, all set within the IDLE game catagory.
+
+    - ### Design, Development and Product
+        - **Game Website:** 
+             - [Main-era-odyssey-ciqb.vercel.app](https://main-era-odyssey-ciqb.vercel.app/assets/Home.html)
+             - [Github repository](https://github.com/Jakkarin-Promsee/Era-Odyssey)
+        - **Coding Details:** [Github Code repository](https://github.com/Jakkarin-Promsee/Unity-EraOdesey/tree/main) 
+            - **Data steam system:** 
+                - **Scriptable Object:** Used to write base data for key properties of each type, such as materials, weapons, and skills. This ensures that all essential attributes, like pictures, object names, details, periods, and quantities, are centralized.
+                - **Frame Functionality:** An additional frame was created to manage functions such as incrementing, decrementing, setting values to defaults, assigning internal variables (object properties) to specific values, calculating material requirements for upgrades, damage calculation, cooldowns, and more.
+                - **Main Scripts:** Developed three main scripts to handle groups of scriptable objects (materials, weapons, skills), enabling functions like calling objects of all types, saving to JSON, reading and replacing data from JSON, crafting weapons, upgrading skills, etc.
+                - **Master Script:** A top-priority script was developed to access and control these three main scripts. This master function manages key features such as save/load functionality, hashing and decoding JSON data, and integrates seamlessly with the combat script for smooth gameplay.
+
+            - **Combat system:**
+                - **Player Script:** Works with the Master Script to call the current equipment (weapon) and calculate the damage and properties for attacks, which are then processed in the Enemy Script. This script also manages the display of player stats (HP, ATK, SP, etc.) and controls the player's animations on screen. It handles actions like picking up items and works in integrates with the Skill Script and Current use Equipments Pop Up.
+
+                - **Skill Script:** Collaborates with both the Master Script and Player Script. It handles special attacks based on the four elements—earth, water, wind, and fire such as emitting a large water wave, shooting fireballs, summoning flying sword clones to attack, etc. This script also integrates with the Information Pop-Up system and Skill Slot Script, allowing the player to select up to 8 skills for manual or automatic use. The script calculates skill damage using the Player Script and retrieves skill properties (e.g., image, cooldown) from the Master Script.
+
+                - **Stage Script:** Manages the enemy data for each stage. Since the stage and enemy properties are fixed, the player's development is the only changing factor. This script randomly summons normal enemies and specific boss enemies at different periods of time.
+
+                - **Enemies Script:** Works with the Stage Script, which provides enemy properties such as HP, damage, item drops, experience, speed, etc. When an enemy dies, this script triggers the Material Pick Script to summon material items on the screen.
+
+                - **Material Pick Script:** Receives material drop information from the Enemies Script and moves the material toward the player. When the material reaches the player, the Master Script updates the material count in the database.
+                
+
+            - **Information Pop Up system:**
+                - **Materials Detail:** The UX/UI displays all materials in the game, sorted into four columns, with each period featuring four materials. When users click on a material slot, a pop-up appears showing the material's name, period, amount, and additional details.
+
+                - **Weapons Detail:** Similar to the materials section, the UX/UI displays all weapons in the game sorted by four columns, with each period featuring four weapons. When users click on a weapon slot, a pop-up appears with the weapon's name, period, amount, details, and two buttons: "Equip" and "Craft." Clicking "Craft" opens a pop-up with crafting details, and clicking "Equip" updates the current equipment display.
+
+                - **Craft Detail:** This pop-up contains the required materials for crafting, including the amount needed, material images, and names. The pop-up also shows how much damage will be increased by crafting. When users click "Craft," the pop-up sends a signal to the Player Script to execute the crafting function in the Master Script.
+
+                - **Current Equipments:** The UX/UI provides six slots for equipment: Sword 1, Sword 2, Hat, Shirt, Pants, and Shoes. When users click on any of these slots, a pop-up displaying the equipped item's details will appear. The script will send a signal to the Player Script to calculate damage in conjunction with the Master Script.
+
+                - **Slot Skills and Detail:** The UX/UI displays all available skills, separated into four columns based on their elemental type. When users click on a skill slot (skill image), a pop-up will show skill details, and users can choose to use or upgrade the skill to increase its abilities. Clicking "Use Skill" sends the skill data to the current skill slots for activation.
+
+                - **Current Skill Slots:** The UX/UI provides an eight-slot skill bar where players can drag and drop skills to use in combat. The selected skills will be displayed in the slots and can be activated either by clicking on them or by using the automatic skill button. Once a skill is activated, it sends a signal to the Skill Script, which runs the corresponding function on the Player Script.
+
+                - **Period Information:** This is the primary pop-up that displays information for each period. Each chapter is unlocked as players progress through the game. The pop-up provides details about important events, the environment, creatures, etc., related to that period.
+
+                - **Period Quiz:** This is a quiz feature that challenges users' knowledge of the periods. The quiz displays sentences based on the period information, and users must answer whether the statement is correct or incorrect within a set time. If the user answers incorrectly, the quiz ends, displaying their score and an explanation of why the answer was wrong.
+
+        - **Story Details:** [Story on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Home.html)
+        - **Creature Details:** [Creature Deatials on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Monster.html)
+        - **Manga Details:** 
+            - [Github (.pdf)](grade10-12_picture\EraOdyssey\manga.pdf)
+            - [Drive (.pdf)](https://drive.google.com/file/d/1Uix36YkKzBhnvanWOvy8TiV5JEy_0b82/view?usp=sharing)
+            - [Manga on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Information.html)
+        - **Information in each period:**
+            - [CH1-The Solar Systerm Form](/grade10-12_picture/EraOdyssey/Information%20in%20each%20period/Temporary1-The%20Solar%20Systerm%20Form.txt)
+            - [CH2-The earth born](/grade10-12_picture/EraOdyssey/Information%20in%20each%20period/Temporary2-The%20earth%20born.txt)
+            - [CH3-Precambrain Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary3-Precambrain.txt)
+            - [CH4-Cambrian Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary4-Cambrian.txt)
+            - [CH5-Ordovicain Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary5-Ordovicain.txt)
+            - [CH6-Silurian Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary6-Silurian.txt)
+            - [CH7-Devonian Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary7-Devonian.txt)
+            - [CH8-Caboniferous Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary8-Caboniferous.txt)
+            - [CH9-Permian Period](grade10-12_picture\EraOdyssey\Information%20in%20each%20period\Temporary9-Permian.txt)
+
+    - ### Challenges Faced
+        - **Creating a Complex Database:** Developing the database required a deep understanding of object-oriented programming (OOP) within the Unity environment. Managing a vast number of data types and categories made the data structure quite large. Each script had to be carefully connected, which added significant complexity and challenge to the process.
+
+        - **Combat System Integration:** Since this project involved multiple team members, integrating the data stream with the combat system was particularly challenging. The combat system needed to pull data from the database while simultaneously interacting with the UX/UI slots. As a result, the main function controlling all player actions became quite large and required additional time to integrate with other code.
+
+        - **Asset Design:** As beginners in game design, we found it challenging to transition from designing on paper to creating digital assets. Designing characters, items, and environments for the game required us to develop new skills and overcome various obstacles.
+
+        - **Unity Tools Issues:** As novices in using Unity, we often encountered errors within the tool itself, not necessarily in the code. These technical issues with Unity slowed our progress significantly, as we had to spend extra time troubleshooting and resolving problems unrelated to our programming efforts.
+
+    - ### Game Product
+        Due to the group members parting ways to attend different universities, the development of this game was stop. Although it is playable on Android devices, some features are still incomplete, leaving the game unfinished. However, the product remains a testament to our core vision and inspiration, capturing the essence of what we aimed to achieve.
+
+        - **Overview**:
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\V1-device.png" alt="Image 1" width="500">
+                <br><strong>1st Version (Test Script)</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\V2-device.png" alt="Image 1" width="500">
+                <br><strong>2nd Version (Complete Script)</strong>
+                </td>
+            </tr>
+            </table>
+
+        - **When Install:**
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\waterTreatmentSystem.jpg" alt="Image 1" width="500">
+                <br><strong>Overview of Water Treatment System</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\install-justMoment.png" alt="Image 1" width="500">
+                <br><strong>Install Devicev (Just Moment)</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\install-1day.png" alt="Image 1" width="500">
+                <br><strong>Install Device (1 Day)</strong>
+                </td>
+            </tr>
+            </table>
+
+        - **Output:**
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\line-notification.png" alt="Image 1" width="200">
+                <br><strong>Line Notification</strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\JAPS\product\googleSheet-table.png" alt="Image 1" width="800">
+                <br><strong>Google Sheet Storage</strong>
+            </tr>
+            </table>
+
+    - ### Conclusion
+        Era Odyssey, an IDLE game designed to provide knowledge about geological time, was not fully completed. The development stopped as the group members pursued studies at different universities. Although the game is playable on Android devices, several features remain unfinished. Despite this, we are proud of what we achieved, given our knowledge, age, and the time constraints we faced. The game aligned with our vision, but we lacked the experience and time to fully bring it to life. This project remains a valuable learning experience, culminating in a gold medal presentation. We gained significant knowledge in algorithms, coding, drawing, and project planning through this stuggle.
+
+    - ### Outcomes and Achievements
+        - **Awards and Recognition:** Represented in the presentations at The 3rd PCSHS Science Symposium 2023 and received the Gold Award in the computer presentation category.
+            <br>
+            <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Presentation\P2.JPG" alt="Image 1" width="430">
+                    <br><strong> Science Symposium 2023 </strong>
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Presentation\P1.JPG" alt="Image 1" width="380">
+                    <br><strong> Presentation on technology event </strong>
+                    </td>
+                </tr>
+            </table>
+
+        - **Certificate:**
+            <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Presentation\Cer.jpg" alt="Image 1" width="350">
+                    <br><strong> Science Symposium 2023 </strong>
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Presentation\med.png" alt="Image 1" width="187">
+                    <br><strong>Gold Medal</strong>
+                    </td>
+                </tr>
+            </table>
+
+    - ### Archive
+        - Game Website
+             - [**Main-era-odyssey-ciqb.vercel.app**](https://main-era-odyssey-ciqb.vercel.app/assets/Home.html)
+             - [Dowload Game (android)](https://main-era-odyssey-ciqb.vercel.app/assets/Play.html)
+             - [Github repository](https://github.com/Jakkarin-Promsee/Era-Odyssey)
+
+        - Coding Details
+            - [Github Code repository](https://github.com/Jakkarin-Promsee/Unity-EraOdesey/tree/main) 
+
+        - Our Note (.pdf)
+            - [Github](grade10-12_picture\EraOdyssey\Archive/Era-Odyssey_13%20(1).pdf)
+            - [Drive](https://drive.google.com/file/d/1Tkin27xTOe03IUMdacgwcbUMGCWm71J5/view?usp=sharing)
+
+        - Poster
+            - [Github .png](grade10-12_picture\EraOdyssey\Archive\Poster.png)
+            - [Github .pdf](grade10-12_picture\EraOdyssey\Archive\EraOdyssey-poster.pdf)
+            - [Drive  .pdf](https://drive.google.com/file/d/1fLO82Z6p8c3w2_UoOv0RFoMHkIAcN7gc/view?usp=sharing)
+                
+        - Academic articles (.pdf)
+            - [Github](grade10-12_picture\EraOdyssey\Archive/Academic-articles.pdf)
+            - [Drive](https://drive.google.com/file/d/1TfpMuQfXKr1hJJAq4NO01Vl2_YBRn2z5/view?usp=drive_link)
+
+            <br>
+            <table>
+                <tr>
+                <td align="center">
+                    <a href="grade10-12_picture\EraOdyssey\Archive\Era-Odyssey_13 (1).pdf"><img src="grade10-12_picture\EraOdyssey\Archive\Era-Odyssey_13-cover.png" alt="Image 1" width="320"></a>
+                    <br><strong> Poster </strong>
+                    </td>
+                    <td align="center">
+                    <a href="grade10-12_picture\EraOdyssey\Archive\Poster.png"><img src="grade10-12_picture\EraOdyssey\Archive\Poster.png" alt="Image 1" width="300"></a>
+                    <br><strong> Poster </strong>
+                    </td>
+                    <td align="center">
+                    <a href="grade10-12_picture\EraOdyssey\Archive\Academic-articles.pdf"><img src="grade10-12_picture\EraOdyssey\Archive\Academic-cover.png" alt="Image 1" width="350"></a>
                     <br><strong>Project Book</strong>
                     </td>
                 </tr>
