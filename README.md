@@ -4,13 +4,15 @@
 ## My Projects
 - ### **[Grade 7-9](#my-project-between-grade-7-9)**
     - [**Mixer Rubber Imitate Senna Siamea Leaves**](#mixer-rubber-imitate-senna-siamea-leaves)
+        - **Achievements:** 1 Gold and 1 Silver award at the national level.
         - **Skills and Technologies Used:**
             - Engineering only.
             - Electrical system design and 3D design.
         - **Description:** Development of a Mixer Rubber Water system using a Senna Siamea leaves model to mix formic acid with rubber for the production of cup rubber. This project aimed to the challenges faced by rubber tappers; swollen rubber, which lowers rubber prices and reduces their income.
-        - **Achievements:** 1 Gold and 1 Silver award at the national level.
+        
 
     - [**Wild fire notifications transmitter remotely**](#wild-fire-notifications-transmitter-remotely)
+        - **Achievements:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
         - **Skills and Technologies Used:**
             - Coding C language with Node MCU ESP-8266 (Micro-controller board).
             - Implementing a wireless signal notification system for remote monitoring using Line.
@@ -18,10 +20,11 @@
             - Designing an electrical system incorporating gas and temperature sensor, antenna module, and lithium battery.
             - Designing a 3D model product with fire-resistant properties.
         - **Description:** This development aims to notify forest fire extinguishing officers in high-risk areas about sparks before they become large wildfires to reduce damage and increase operational efficiency. The development focuses on affordability, durability, and reusability.
-        - **Achievements:** Passed the short term capital selection from JSTP (Junior Science Talent Project).
+        
     
 - ### **[Grade 10-12](#my-project-between-grade-10-12)**
     - [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAP.)**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence-japs)
+        - **Achievements:** Represented in a presentation to the Prime Minister of Thailand at the Thailand-Japan Student ICE Fair 2022 (national event).
         - **Skills and Technologies Used:**
             - Coding using C language with the Node MCU ESP-8266, working together with Arduino (Microcontroller board).
             - Implementing a water quality calculation system using pH, DO (Dissolved Oxygen), and temperature sensors.
@@ -29,11 +32,8 @@
             - Implementing an automatic data storage system on the cloud using Google Sheets.
             - Designing an electrical system incorporating pH, DO, gas, and temperature sensors.
             - Designing a 3D model product with water-resistant properties.
-
         - **Description:** This development aims to increase the efficiency of water treatment systems by using IoT technology to notify water treatment officers via Line when the environmental conditions within the system are harmful to water-treatment bacteria. The project utilizes an artificial intelligence algorithm to calculate water quality using pH, DO (Dissolved Oxygen), and temperature. The development focuses on durability and accuracy.
-
-        - **Achievements:** Represented in a presentation to the Prime Minister of Thailand at the Thailand-Japan Student ICE Fair 2022 (national event).
-
+        
 
 - ### **[Freshman (Current)](#my-project-between-freshman)**
 
@@ -140,6 +140,19 @@
         - **Awards and Recognition:**
             - Gold Award at National Level
             - Silver Award at National Level
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade7-9_picture\Mixer Rubber\Presentatioan-stem.jpg" alt="Image 1" width="300">
+                <br>Thailand STEM Festival 2018
+                </td>
+                <td align="center">
+                <img src="grade7-9_picture\Mixer Rubber\Presentation-studentArt.jpg" alt="Image 1" width="300">
+                <br>69th student art and craft contest of national 2019
+                </td>
+            </tr>
+            </table>
+
         - **Certificates**:
             <table>
             <tr>
@@ -253,7 +266,7 @@
 
     - ### Outcomes and Achievements
         - **Awards and Recognition:** Passed the short term capital selection from JSTP (Junior Science Talent Project) - 5,000฿ Project funding.
-        - ****
+
     - ### Archive
         - [Lastest Code version (.ino)](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
         - Full Project Book (.pdf)
@@ -396,36 +409,93 @@
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\JAPS\product\googleSheet-table.png" alt="Image 1" width="800">
-                <br><strong>Google Sheet Storage (Just Moment)</strong>
+                <br><strong>Google Sheet Storage</strong>
             </tr>
             </table>
 
     - ### Testing and Validation
-        The wildfire notification transmitter was successfully tested and can be used in real scenarios. The device demonstrated the ability to withstand forest fire temperatures and endure extreme weather conditions. The only damage observed was to the temperature sensors, which are installed outside the case and the fire shield. This results in a cost of 138฿ per detected forest fire. During the installation height experiment, it was found that the higher the device is placed on a tree, the lower the detected temperature due to the spreading of heat.
+        - **Successful Data Collection and Notification**: The Water Quality Monitoring and Notification Machine was successful in collecting data from the water treatment system and sending it to Google Sheets and via Line notifications.
+
+        - **Prediction Accuracy**: The prediction function demonstrated an accuracy of 98.21% for 15-minute predictions. This limitation was caused by the periodic operation of the air pump, which affects the intermittent properties of the water, influencing the prediction accuracy.
+
+        - **Performance During Peak Periods**: The maximum time for data transmission during peak periods was 34.61, which is acceptable in real-world scenarios.
+
+        - **Water Shield Weakness**: The main weakness of this version was the water shield, which was not strong enough to withstand low pH levels, high waves from the air pump, and wastewater falling from the top of the water treatment system. This caused the water shield to break quickly, leading to damage to the circuit.
+        This structure emphasizes each testing and validation point clearly and adds more focus to the key
 
     - ### Conclusion
-        The wildfire notification transmitter successfully alerts forest fire extinguishing officers and stores data on Google Sheets. The device can be installed in high-risk or hard-to-reach areas as intended. The total cost per device is 2,716฿, with an internet service fee of 350฿ per year and an approximate cost of 138฿ per detected forest fire. The device’s shield can withstand temperatures up to 1800°C and endure extreme weather conditions. The batteries can last approximately 6 months without recharging, which is sufficient for one wildfire season, with a 3-month safety margin to account for deteriorated conditions. The estimated lifespan of the device is around 5 years. 
+        The Water Quality Monitoring and Notification Machine successfully predicts water quality and alerts water treatment system officers via Line notifications, while also storing data on Google Sheets. The machine has proven to be technically usable for real-scenario with only the water shield needing improvement to ensure a stronger water seal. The device operates using an existing 220V power supply and external internet connection, making sensor maintenance is the only ongoing requirement.
 
     - ### Outcomes and Achievements
-        - **Awards and Recognition:** Passed the short term capital selection from JSTP (Junior Science Talent Project) - 5,000฿ Project funding.
+        - **Awards and Recognition:** 
+            - Represented in a presentation to the Prime Minister of Thailand at the Thailand-Japan Student ICE Fair 2022 (national event).
+            - Represented in a presentation to The Science Project Presentation of Science Fair 2023
+
+            <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\JAPS\certificate\amTJSIF.jpg" alt="Image 1" width="430">
+                    <br><strong> Taking pictures with the Prime Minister of Thailand (TJSIF 2022)</strong>
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\JAPS\certificate\amSF.jpg" alt="Image 1" width="350">
+                    <br><strong>Participate Science Fair 2023</strong>
+                    </td>
+                </tr>
+            </table>
+
+        - **Certificate:**
+            <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\JAPS\certificate\cTJSIF.jpg" alt="Image 1" width="350">
+                    <br><strong> Thailand-Japan Student ICE Fair 2022 (TJSIF)</strong>
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\JAPS\certificate\cSF.jpg" alt="Image 1" width="175">
+                    <br><strong>Science Fair 2023</strong>
+                    </td>
+                </tr>
+            </table>
+
+
         - ****
     - ### Archive
-        - [Lastest Code version (.ino)](/grade7-9_picture/Wild%20Fire%20Notification/NodeMCU_esp8266_Test32.ino)
-        - Full Project Book (.pdf)
-            - [Github](/grade7-9_picture/Wild%20Fire%20Notification/Wild%20fire%20notifications%20transmitter%20remotely.pdf)
-            - [Drive](https://drive.google.com/file/d/1wq23_WxlONmL-cdAyybcr5L9QEauEcZY/view?usp=sharing)
-            <tr>
-                <td align="center">
-                <a href="/grade7-9_picture/Wild Fire Notification/Wild fire notifications transmitter remotely.pdf"><img src="grade7-9_picture\Wild Fire Notification\the cover project book.png" alt="Image 1" width="350">
-                </td></a>
+        - The Lastest Code version:
+            - [[Arduino Code for Arduino IDE (.ino)]](grade10-12_picture/JAPS/Code/A1.ino)
+            - [[NodeMCU Code for Arduino IDE (.ino)]](grade10-12_picture/JAPS/Code/N1.ino)
+            - [[Google Sheet App Script (.txt)]](grade10-12_picture/JAPS/Code/Code%20Google%20sheet.txt)
+            - [[Main Calculate Function Only (.cpp)]](grade10-12_picture/JAPS/Code/main_calculate.cpp)
 
-            </tr>
+        - Poster
+            - [Github .png](grade10-12_picture\JAPS\archieve\poster.png)
+            - [Github .pdf](grade10-12_picture\JAPS\archieve\poster.pdf)
+            - [Drive  .pdf](https://drive.google.com/file/d/1XIVfMGYoEI4QhCIb0kwrsKC6eTsOnnQf/view?usp=sharing)
+                
+        - Full Project Book (.pdf)
+            - [Github](grade10-12_picture\JAPS\archieve\JAPS_completely.pdf)
+            - [Drive](https://drive.google.com/file/d/1T5b9LU_VzdlB-Pj79ntWBBIYhA1CLcgt/view?usp=sharing)
+
+            <br>
+            <table>
+                <tr>
+                    <td align="center">
+                    <a href="grade10-12_picture\JAPS\archieve\poster.png"><img src="grade10-12_picture\JAPS\archieve\poster.png" alt="Image 1" width="320"></a>
+                    <br><strong> Poster </strong>
+                    </td>
+                    <td align="center">
+                    <a href="grade10-12_picture\JAPS\archieve\JAPS_completely.pdf"><img src="grade10-12_picture\JAPS\archieve\project-book_cover.png" alt="Image 1" width="350"></a>
+                    <br><strong>Project Book</strong>
+                    </td>
+                </tr>
+            </table>
+
 ---
 <br>
 
 ---
 ---
 # My Project Between Freshman
-- [**Mixer Rubber Imitate Senna Siamea Leaves**](#mixer-rubber-imitate-senna-siamea-leaves)
-- [**Wild fire notifications transmitter remotely**](#wild-fire-notifications-transmitter-remotely)
+- [**--**](#mixer-rubber-imitate-senna-siamea-leaves)
+- [**--**](#wild-fire-notifications-transmitter-remotely)
 ---
