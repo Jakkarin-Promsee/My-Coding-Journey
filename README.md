@@ -430,7 +430,7 @@
         - **Awards and Recognition:** 
             - Represented in a presentation to the Prime Minister of Thailand at the Thailand-Japan Student ICE Fair 2022 (national event).
             - Represented in a presentation to The Science Project Presentation of Science Fair 2023
-
+            <br>
             <table>
                 <tr>
                     <td align="center">
@@ -458,8 +458,6 @@
                 </tr>
             </table>
 
-
-        - ****
     - ### Archive
         - The Lastest Code version:
             - [[Arduino Code for Arduino IDE (.ino)]](grade10-12_picture/JAPS/Code/A1.ino)
