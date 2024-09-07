@@ -4,8 +4,6 @@
 - [**Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAPS.)**](#water-quality-monitoring-and-notification-machine-for-increase-efficiency-of-water-treatment-using-artificial-intelligence-japs)
 - [**Era Odyssey, The IDLE Game to provide knowledge about geological time (Moblie)**](#era-odyssey-the-idle-game-to-provide-knowledge-about-geological-time-moblie)
 
-<!-- # My Other Project -->
-
 ---
 
 - ## Water Quality Monitoring and Notification Machine for Increase Efficiency of Water Treatment using Artificial Intelligence (JAPS.)
@@ -273,15 +271,15 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\1.png" alt="Image 1" width="400">
-                <br><strong><1></strong>
+                <br><strong><a.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\2.png" alt="Image 1" width="400">
-                <br><strong><2></strong>
+                <br><strong><b.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\3.png" alt="Image 1" width="400">
-                <br><strong><3></strong>
+                <br><strong><c.></strong>
                 </td>
             </tr>
             </table>
@@ -296,15 +294,15 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\4.png" alt="Image 1" width="400">
-                <br><strong><4></strong>
+                <br><strong><e.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\5.png" alt="Image 1" width="400">
-                <br><strong><5></strong>
+                <br><strong><f.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\6.png" alt="Image 1" width="400">
-                <br><strong><6></strong>
+                <br><strong><g.></strong>
                 </td>
             </tr>
             </table>
@@ -323,11 +321,11 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\7.png" alt="Image 1" width="400">
-                <br><strong><7></strong>
+                <br><strong><h.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\8.png" alt="Image 1" width="400">
-                <br><strong><8></strong>
+                <br><strong><i.></strong>
             </tr>
             </table>
 
@@ -418,25 +416,25 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\0_opening.jpg" alt="Image 1" width="200">
-                <br><strong><1></strong>
+                <br><strong><a.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\1_gameBegining.jpg" alt="Image 1" width="200">
-                <br><strong><2></strong>
+                <br><strong><b.></strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\2_attacking.jpg" alt="Image 1" width="200">
-                <br><strong><3></strong>
+                <br><strong><c.></strong>
                 </td>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\3_status.jpg" alt="Image 1" width="200">
-                <br><strong><4></strong></strong>
+                <br><strong><d.></strong></strong>
                 </td>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\4_boss.jpg" alt="Image 1" width="200">
-                <br><strong><5></strong>
+                <br><strong><e.></strong>
                 </td>
             </tr>
             </table>
@@ -450,15 +448,15 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\material-slots\0_slot-material.jpg" alt="Image 1" width="200">
-                <br>[1]
+                <br>[a.]
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\material-slots\1_unknown-material-information.jpg" alt="Image 1" width="200">
-                <br>[2]
+                <br>[b.]
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\material-slots\2-material-information.jpg" alt="Image 1" width="200">
-                <br>[3]
+                <br>[c.]
                 </td>
             </tr>
             </table>
