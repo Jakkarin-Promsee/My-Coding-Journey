@@ -271,15 +271,15 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\1.png" alt="Image 1" width="400">
-                <br><strong><a.></strong>
+                <br><strong>[a.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\2.png" alt="Image 1" width="400">
-                <br><strong><b.></strong>
+                <br><strong>[b.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\3.png" alt="Image 1" width="400">
-                <br><strong><c.></strong>
+                <br><strong>[c.]</strong>
                 </td>
             </tr>
             </table>
@@ -294,15 +294,15 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\4.png" alt="Image 1" width="400">
-                <br><strong><e.></strong>
+                <br><strong>[e.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\5.png" alt="Image 1" width="400">
-                <br><strong><f.></strong>
+                <br><strong>[f.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\6.png" alt="Image 1" width="400">
-                <br><strong><g.></strong>
+                <br><strong>[g.]</strong>
                 </td>
             </tr>
             </table>
@@ -321,11 +321,11 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\7.png" alt="Image 1" width="400">
-                <br><strong><h.></strong>
+                <br><strong>[h.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Story\8.png" alt="Image 1" width="400">
-                <br><strong><i.></strong>
+                <br><strong>[i.]</strong>
             </tr>
             </table>
 
@@ -416,25 +416,25 @@
             <tr>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\0_opening.jpg" alt="Image 1" width="200">
-                <br><strong><a.></strong>
+                <br><strong>[a.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\1_gameBegining.jpg" alt="Image 1" width="200">
-                <br><strong><b.></strong>
+                <br><strong>[b.]</strong>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\2_attacking.jpg" alt="Image 1" width="200">
-                <br><strong><c.></strong>
+                <br><strong>[c.]</strong>
                 </td>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\3_status.jpg" alt="Image 1" width="200">
-                <br><strong><d.></strong></strong>
+                <br><strong>[d.]</strong></strong>
                 </td>
                 </td>
                 <td align="center">
                 <img src="grade10-12_picture\EraOdyssey\Game-image\opening\4_boss.jpg" alt="Image 1" width="200">
-                <br><strong><e.></strong>
+                <br><strong>[e.]</strong>
                 </td>
             </tr>
             </table>
