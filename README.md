@@ -1,4 +1,4 @@
-# My success repository
+# My Successful Project
 **This repository will document every project I’ve completed throughout my coding journey, starting from Grade 7 up to the present. All finished projects will be summarized here, with a README file serving as the table of contents.**
 
 # My Projects
