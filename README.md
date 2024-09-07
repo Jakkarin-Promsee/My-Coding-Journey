@@ -562,28 +562,105 @@
                 - **Period Quiz:** This is a quiz feature that challenges users' knowledge of the periods. The quiz displays sentences based on the period information, and users must answer whether the statement is correct or incorrect within a set time. If the user answers incorrectly, the quiz ends, displaying their score and an explanation of why the answer was wrong.
 
         - **Story Details:** [Story on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Home.html)
-            <td></td><img src="grade10-12_picture\EraOdyssey\Story\1.png" alt="Image 1" width="200"></td>
-            <br>*The Saxabra* is like a central hub of all human knowledge. It was created through the collaboration of countries around the world by building a large island from reclaimed land. On top of this island, a city was constructed. This city functions like a huge science exhibit or a giant laboratory. Its goal is to bring researchers from all over the world together in one place to study human potential. In the center of the city stands a large center known as The Briatis, which represents the essence of the city.
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\1.png" alt="Image 1" width="400">
+                <br><strong><1></strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\2.png" alt="Image 1" width="400">
+                <br><strong><2></strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\3.png" alt="Image 1" width="400">
+                <br><strong><3></strong>
+                </td>
+            </tr>
+            </table>
 
-            - The Briatis is where scientists, researchers, and experts from different fields live and work together. It also provides the main energy for the whole island and is a center for creating new inventions, theories, and many other innovations, some of which are kept secret. Only a few high-ranking officials know about the secrets inside The Briatis.
+            1. *The Saxabra* is like a central hub of all human knowledge. It was created through the collaboration of countries around the world by building a large island from reclaimed land. On top of this island, a city was constructed. This city functions like a huge science exhibit or a giant laboratory. Its goal is to bring researchers from all over the world together in one place to study human potential. In the center of the city stands a large center known as The Briatis, which represents the essence of the city.
 
-            - Everyone understands that "human resources" are very important. They are like variables that can change by themselves at any time. Many people want to contribute to the development of humanity, but due to various factors, they end up being just workers in white lab coats, carrying things around. They are not much different from robots. Thankfully, there is a high-level leader who rejected the use of robots. Without him, I wouldn’t be standing here showing my skills, and neither would others.
+            2. The Briatis is where scientists, researchers, and experts from different fields live and work together. It also provides the main energy for the whole island and is a center for creating new inventions, theories, and many other innovations, some of which are kept secret. Only a few high-ranking officials know about the secrets inside The Briatis.
 
-            - Hello everyone, I’m Demain H. Cover, a standout employee in the Common General Work Section 5. I’m not just boasting—my colleagues are smart, but they don’t always think for themselves. I get it. Many who come here don’t become selected researchers and don’t have research achievements or recognized qualifications. Working here at this "simulated paradise" to fulfill dreams might be a good option.
+            3. Everyone understands that "human resources" are very important. They are like variables that can change by themselves at any time. Many people want to contribute to the development of humanity, but due to various factors, they end up being just workers in white lab coats, carrying things around. They are not much different from robots. Thankfully, there is a high-level leader who rejected the use of robots. Without him, I wouldn’t be standing here showing my skills, and neither would others.
+
+            <br><br><table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\4.png" alt="Image 1" width="400">
+                <br><strong><4></strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\5.png" alt="Image 1" width="400">
+                <br><strong><5></strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\6.png" alt="Image 1" width="400">
+                <br><strong><6></strong>
+                </td>
+            </tr>
+            </table>
+
+            4. Hello everyone, I’m Demain H. Cover, a standout employee in the Common General Work Section 5. I’m not just boasting—my colleagues are smart, but they don’t always think for themselves. I get it. Many who come here don’t become selected researchers and don’t have research achievements or recognized qualifications. Working here at this "simulated paradise" to fulfill dreams might be a good option.
             <br><br>
             While working here, I’ve seen many employees start to lose their individuality and ability to think critically. It might be because they spend their time cleaning, organizing documents and energy, or following the orders of researchers they assist. I’m also surprised at how many employees act like robots, just following orders without question. Maybe something else is influencing them. I’m just speculating.
 
-            - The researchers here are all geniuses selected to work together on this island. But I’ve heard that even among these geniuses, there are some who are considered the ultimate of the ultimate—“at the peak of ideal learning.” Let me tell you a story.
+            5. The researchers here are all geniuses selected to work together on this island. But I’ve heard that even among these geniuses, there are some who are considered the ultimate of the ultimate—“at the peak of ideal learning.” Let me tell you a story.
             <br><br>
             While I was walking to review the progress of a research project, I heard that there are four people who are recognized as the best of the best. They are as mysterious as legends. The technology and research they work on are beyond imagination and are kept as top secrets. Some researchers speculate that one of them might be able to draw energy or create objects from human imagination, or that another can control time. These rumors might seem exaggerated, but on this island, they could very well be true. The idea of technology that could conquer even gods is quite intriguing.
 
-            - It seems I’ve entered the research room I was assigned to. It looks like the Si-2505 might be some kind of door. It’s strange because it can look different each time you glance away and then look back. It’s built with odd technology and materials that don’t match the room’s atmosphere. The blue light coming from it makes me feel uneasy. I think I’ll quickly record the data and get out of this room.
+            6. It seems I’ve entered the research room I was assigned to. It looks like the Si-2505 might be some kind of door. It’s strange because it can look different each time you glance away and then look back. It’s built with odd technology and materials that don’t match the room’s atmosphere. The blue light coming from it makes me feel uneasy. I think I’ll quickly record the data and get out of this room.
 
-            - Before I could analyze the components of the experiment, it suddenly seemed to activate on its own. The strange blue light was so bright that I felt like I needed to buy those light-filtering glasses advertised on the island. Along with the odd sounds affecting my senses, I didn’t know what to do. It felt like this might be a plan to silence me, or maybe my past actions are catching up with me now. The light was so intense it turned everything white. It felt like I was being engulfed and put to sleep by the swirling, strange sounds around me.
+            <br><br><table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\7.png" alt="Image 1" width="400">
+                <br><strong><7></strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Story\8.png" alt="Image 1" width="400">
+                <br><strong><8></strong>
+            </tr>
+            </table>
 
-            - Ah... that’s the story of how I ended up sent back to some unknown era of the world by that machine. Maybe this is the result of me not paying attention to geology. But it’s in the past now. Given my skills, which are like those of a protagonist in a survival game, I think I have a good chance of surviving and returning to the present. Thanks for listening to my complaints. Keep an eye out to see if I can make it back to the present... Yikes!
+            7. Before I could analyze the components of the experiment, it suddenly seemed to activate on its own. The strange blue light was so bright that I felt like I needed to buy those light-filtering glasses advertised on the island. Along with the odd sounds affecting my senses, I didn’t know what to do. It felt like this might be a plan to silence me, or maybe my past actions are catching up with me now. The light was so intense it turned everything white. It felt like I was being engulfed and put to sleep by the swirling, strange sounds around me.
+
+            8. Ah... that’s the story of how I ended up sent back to some unknown era of the world by that machine. Maybe this is the result of me not paying attention to geology. But it’s in the past now. Given my skills, which are like those of a protagonist in a survival game, I think I have a good chance of surviving and returning to the present. Thanks for listening to my complaints. Keep an eye out to see if I can make it back to the present... Yikes!
 
         - **Creature Details:** [Creature Deatials on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Monster.html)
+        <br>**Example 8 of creature we used.**
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\1.png" alt="Image 1" width="400">
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\2.png" alt="Image 1" width="400">
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\3.png" alt="Image 1" width="400">
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\4.png" alt="Image 1" width="400">
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\5-1.png" alt="Image 1" width="400">
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\5-2.png" alt="Image 1" width="400">
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\6.png" alt="Image 1" width="400">
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\monter\7.png" alt="Image 1" width="400">
+            </tr>
+            </table>
+
         - **Manga Details:** 
             - [Github (.pdf)](grade10-12_picture\EraOdyssey\manga.pdf)
             - [Drive (.pdf)](https://drive.google.com/file/d/1Uix36YkKzBhnvanWOvy8TiV5JEy_0b82/view?usp=sharing)
