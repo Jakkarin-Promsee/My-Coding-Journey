@@ -562,11 +562,42 @@
                 - **Period Quiz:** This is a quiz feature that challenges users' knowledge of the periods. The quiz displays sentences based on the period information, and users must answer whether the statement is correct or incorrect within a set time. If the user answers incorrectly, the quiz ends, displaying their score and an explanation of why the answer was wrong.
 
         - **Story Details:** [Story on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Home.html)
+            <td></td><img src="grade10-12_picture\EraOdyssey\Story\1.png" alt="Image 1" width="200"></td>
+            <br>*The Saxabra* is like a central hub of all human knowledge. It was created through the collaboration of countries around the world by building a large island from reclaimed land. On top of this island, a city was constructed. This city functions like a huge science exhibit or a giant laboratory. Its goal is to bring researchers from all over the world together in one place to study human potential. In the center of the city stands a large center known as The Briatis, which represents the essence of the city.
+
+            - The Briatis is where scientists, researchers, and experts from different fields live and work together. It also provides the main energy for the whole island and is a center for creating new inventions, theories, and many other innovations, some of which are kept secret. Only a few high-ranking officials know about the secrets inside The Briatis.
+
+            - Everyone understands that "human resources" are very important. They are like variables that can change by themselves at any time. Many people want to contribute to the development of humanity, but due to various factors, they end up being just workers in white lab coats, carrying things around. They are not much different from robots. Thankfully, there is a high-level leader who rejected the use of robots. Without him, I wouldn’t be standing here showing my skills, and neither would others.
+
+            - Hello everyone, I’m Demain H. Cover, a standout employee in the Common General Work Section 5. I’m not just boasting—my colleagues are smart, but they don’t always think for themselves. I get it. Many who come here don’t become selected researchers and don’t have research achievements or recognized qualifications. Working here at this "simulated paradise" to fulfill dreams might be a good option.
+            <br><br>
+            While working here, I’ve seen many employees start to lose their individuality and ability to think critically. It might be because they spend their time cleaning, organizing documents and energy, or following the orders of researchers they assist. I’m also surprised at how many employees act like robots, just following orders without question. Maybe something else is influencing them. I’m just speculating.
+
+            - The researchers here are all geniuses selected to work together on this island. But I’ve heard that even among these geniuses, there are some who are considered the ultimate of the ultimate—“at the peak of ideal learning.” Let me tell you a story.
+            <br><br>
+            While I was walking to review the progress of a research project, I heard that there are four people who are recognized as the best of the best. They are as mysterious as legends. The technology and research they work on are beyond imagination and are kept as top secrets. Some researchers speculate that one of them might be able to draw energy or create objects from human imagination, or that another can control time. These rumors might seem exaggerated, but on this island, they could very well be true. The idea of technology that could conquer even gods is quite intriguing.
+
+            - It seems I’ve entered the research room I was assigned to. It looks like the Si-2505 might be some kind of door. It’s strange because it can look different each time you glance away and then look back. It’s built with odd technology and materials that don’t match the room’s atmosphere. The blue light coming from it makes me feel uneasy. I think I’ll quickly record the data and get out of this room.
+
+            - Before I could analyze the components of the experiment, it suddenly seemed to activate on its own. The strange blue light was so bright that I felt like I needed to buy those light-filtering glasses advertised on the island. Along with the odd sounds affecting my senses, I didn’t know what to do. It felt like this might be a plan to silence me, or maybe my past actions are catching up with me now. The light was so intense it turned everything white. It felt like I was being engulfed and put to sleep by the swirling, strange sounds around me.
+
+            - Ah... that’s the story of how I ended up sent back to some unknown era of the world by that machine. Maybe this is the result of me not paying attention to geology. But it’s in the past now. Given my skills, which are like those of a protagonist in a survival game, I think I have a good chance of surviving and returning to the present. Thanks for listening to my complaints. Keep an eye out to see if I can make it back to the present... Yikes!
+
         - **Creature Details:** [Creature Deatials on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Monster.html)
         - **Manga Details:** 
             - [Github (.pdf)](grade10-12_picture\EraOdyssey\manga.pdf)
             - [Drive (.pdf)](https://drive.google.com/file/d/1Uix36YkKzBhnvanWOvy8TiV5JEy_0b82/view?usp=sharing)
             - [Manga on Web page](https://main-era-odyssey-ciqb.vercel.app/assets/Information.html)
+
+            <table>
+            <tr>
+                <td align="center">
+                <a href="grade10-12_picture\EraOdyssey\manga.pdf"><img src="grade10-12_picture\EraOdyssey\manga.png" alt="Image 1" width="250"></a>
+                <br><strong>Information Manga</strong>
+                </td>
+            </tr>
+            </table>
+
         - **Information in each period:**
             - [CH1-The Solar Systerm Form](/grade10-12_picture/EraOdyssey/Information%20in%20each%20period/Temporary1-The%20Solar%20Systerm%20Form.txt)
             - [CH2-The earth born](/grade10-12_picture/EraOdyssey/Information%20in%20each%20period/Temporary2-The%20earth%20born.txt)
@@ -590,50 +621,198 @@
     - ### Game Product
         Due to the group members parting ways to attend different universities, the development of this game was stop. Although it is playable on Android devices, some features are still incomplete, leaving the game unfinished. However, the product remains a testament to our core vision and inspiration, capturing the essence of what we aimed to achieve.
 
-        - **Overview**:
+        - **APK Downloading for android:** [Go to Webpage to download](https://main-era-odyssey-ciqb.vercel.app/assets/Play.html)
+
+        - **Overview**: The character will attack automatically, and the player must clear each stage. When enemies are defeated, they will drop experience points (EXP), which will increase the player's stats, as well as materials that can be used to craft new weapons and armor to further upgrade the player's status. Users need to strategize and select the right set of weapons and armor to face the boss in each period to progress to the next stage.
+            1. Opening the game.
+            2. Enemies will spawn from the stage.
+            3. The character will attack automatically. When enemies die, they will drop EXP and materials.
+            4. Players must use these materials to upgrade weapons and armor, planning their equipment to grow stronger.
+            5. When players have sufficient equipment, they can challenge the stage boss. If they win, a new period will unlock with new materials, items, and more.
+
             <table>
             <tr>
                 <td align="center">
-                <img src="grade10-12_picture\JAPS\product\V1-device.png" alt="Image 1" width="500">
-                <br><strong>1st Version (Test Script)</strong>
+                <img src="grade10-12_picture\EraOdyssey\Game-image\opening\0_opening.jpg" alt="Image 1" width="200">
+                <br><strong><1></strong>
                 </td>
                 <td align="center">
-                <img src="grade10-12_picture\JAPS\product\V2-device.png" alt="Image 1" width="500">
-                <br><strong>2nd Version (Complete Script)</strong>
+                <img src="grade10-12_picture\EraOdyssey\Game-image\opening\1_gameBegining.jpg" alt="Image 1" width="200">
+                <br><strong><2></strong>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Game-image\opening\2_attacking.jpg" alt="Image 1" width="200">
+                <br><strong><3></strong>
+                </td>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Game-image\opening\3_status.jpg" alt="Image 1" width="200">
+                <br><strong><4></strong></strong>
+                </td>
+                </td>
+                <td align="center">
+                <img src="grade10-12_picture\EraOdyssey\Game-image\opening\4_boss.jpg" alt="Image 1" width="200">
+                <br><strong><5></strong>
                 </td>
             </tr>
             </table>
 
-        - **When Install:**
+        - **Material:** 
+            1. Players can view all materials in the inventory slot. Items that have not been obtained will appear as black icons, indicating they are unknown.
+            2. When players press on an unknown item icon, the information will show as "Unknown."
+            3. When players press on an obtained item icon, the full item information (name, description, etc.) will be displayed.
+
             <table>
             <tr>
                 <td align="center">
-                <img src="grade10-12_picture\JAPS\product\waterTreatmentSystem.jpg" alt="Image 1" width="500">
-                <br><strong>Overview of Water Treatment System</strong>
+                <img src="grade10-12_picture\EraOdyssey\Game-image\material-slots\0_slot-material.jpg" alt="Image 1" width="200">
+                <br>[1]
                 </td>
                 <td align="center">
-                <img src="grade10-12_picture\JAPS\product\install-justMoment.png" alt="Image 1" width="500">
-                <br><strong>Install Devicev (Just Moment)</strong>
+                <img src="grade10-12_picture\EraOdyssey\Game-image\material-slots\1_unknown-material-information.jpg" alt="Image 1" width="200">
+                <br>[2]
                 </td>
                 <td align="center">
-                <img src="grade10-12_picture\JAPS\product\install-1day.png" alt="Image 1" width="500">
-                <br><strong>Install Device (1 Day)</strong>
+                <img src="grade10-12_picture\EraOdyssey\Game-image\material-slots\2-material-information.jpg" alt="Image 1" width="200">
+                <br>[3]
                 </td>
             </tr>
             </table>
 
-        - **Output:**
+        - **Weapon and Armmor:** Players can view all equipment in the weapon and armor slots. Equipment that has not been obtained (crafted) will appear as black icons, indicating they are unknown. When players click on a crafted item, it will be equipped and shown in the current equipment slot, increasing the player's stats.
+            1. **Weapon Slots:** Displays all weapons, both obtained and unknown.
+            2. **Armor Slots:** Displays all armor pieces, both obtained and unknown.
+            3. **Current Equipment Slots:** Shows the currently equipped weapon and armor, which contribute to the player's stats.
+            - **Slot:** 
+                <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\0 _slots-weapon.jpg" alt="Image 1" width="200">
+                    <br>Slot Weapon
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\0-slot-armor.jpg" alt="Image 1" width="200">
+                    <br>Slot Armor
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\0_slots-Equipment.jpg" alt="Image 1" width="200">
+                    <br>Slot Current Equipment
+                    </td>
+                </tr>
+                </table>
+            - **Weapon craft:**
+                <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\1-unknownWeapon-information.jpg" alt="Image 1" width="200">
+                    <br>Unknown Information
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\2-unknownWeapon-craft.jpg" alt="Image 1" width="200">
+                    <br>Weapon Crafting
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\3-wapon-craft.jpg" alt="Image 1" width="200">
+                    <br>Weapon Upgrading
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\4-weapon-information.jpg" alt="Image 1" width="200">
+                    <br>Weapon Information
+                    </td>
+                </tr>
+                </table>
+
+                <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\5-armor-craft.jpg" alt="Image 1" width="200">
+                    <br>Armor upgrade
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\weapon-slots\6-armor-information.jpg" alt="Image 1" width="200">
+                    <br>Armor Information
+                </tr>
+                </table>
+        - **Skills:** This future isn't complete successfully, It's still be the consept in damage equation use by non-graphic assets, and many function is not done. However, this skills is enable to use.
+            - **Select skill:**
+                <table>
+                    <tr>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\0_skill-slot.jpg" alt="Image 1" width="200">
+                        <br>Skill Slotes
+                        </td>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\1_skill-information.jpg" alt="Image 1" width="200">
+                        <br>Skill Information
+                        </td>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\2_skill-choose.jpg" alt="Image 1" width="200">
+                        <br>Choosing to skill bar
+                        </td>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\4_on-autoskill.jpg" alt="Image 1" width="200">
+                        <br>Open auto skill use
+                        </td>
+                    </tr>
+                </table>
+
+            - **Using Skill:**
+                <table>
+                    <tr>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\5_skill-use.jpg" alt="Image 1" width="200">
+                        <br>Ex1 Skill
+                        </td>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\5_skill-use2.jpg" alt="Image 1" width="200">
+                        <br>Ex2 Skill
+                        </td>
+                        <td align="center">
+                        <img src="grade10-12_picture\EraOdyssey\Game-image\skill-slots\5_skill-use3.jpg" alt="Image 1" width="200">
+                        <br>Ex3 Skill
+                    </tr>
+                </table>
+
+        - **Challenge boss to unlock new period:** Players can click to select a period and choose the one they want to challenge. Players can battle the boss of each period, and if they win, a new locked period will be unlocked, granting access to new materials, weapons, and armor.
             <table>
-            <tr>
-                <td align="center">
-                <img src="grade10-12_picture\JAPS\product\line-notification.png" alt="Image 1" width="200">
-                <br><strong>Line Notification</strong>
-                </td>
-                <td align="center">
-                <img src="grade10-12_picture\JAPS\product\googleSheet-table.png" alt="Image 1" width="800">
-                <br><strong>Google Sheet Storage</strong>
-            </tr>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\0_stage_choose.jpg" alt="Image 1" width="200">
+                    <br>Choose Period to Play
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\4_boss.jpg" alt="Image 1" width="200">
+                    <br>Fight Period Boss
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\1_new-stage.jpg" alt="Image 1" width="200">
+                    <br>Go to New Period
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\New-boss2.jpg" alt="Image 1" width="200">
+                    <br>Fight New Period Boss
+                </tr>
             </table>
+        
+        - **Information:** Players can choose to read and test their knowledge of each period. The quiz will randomly present facts from each period, and players must select whether they are true or false. If the player loses, the quiz will stop and show the reason for their loss.
+            <table>
+                <tr>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\0_stage.jpg" alt="Image 1" width="200">
+                    <br>Period Information
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\22_quiz-chapter.jpg" alt="Image 1" width="200">
+                    <br>Period Quiz
+                    </td>
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\24_example-quiz.jpg" alt="Image 1" width="200">
+                    <br>Example Quiz
+                    <td align="center">
+                    <img src="grade10-12_picture\EraOdyssey\Game-image\25_example-answer.jpg" alt="Image 1" width="200">
+                    <br>Answer Show
+                </tr>
+            </table>
+                
 
     - ### Conclusion
         Era Odyssey, an IDLE game designed to provide knowledge about geological time, was not fully completed. The development stopped as the group members pursued studies at different universities. Although the game is playable on Android devices, several features remain unfinished. Despite this, we are proud of what we achieved, given our knowledge, age, and the time constraints we faced. The game aligned with our vision, but we lacked the experience and time to fully bring it to life. This project remains a valuable learning experience, culminating in a gold medal presentation. We gained significant knowledge in algorithms, coding, drawing, and project planning through this stuggle.
